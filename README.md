@@ -88,7 +88,30 @@ First, we have `<h1>`, which adds a *heading* to our website.  Basically, a head
 
 Next, we have `<p>` tags.  `<p>` adds a *paragraph* of text to our website, which are blocks of text that have some space before and after them.  Edit the text in the paragraphs given, and add your own to see what I mean!
 
-And finally, we have `<ul>`.  `<ul>` means a bulleted list (also known as an *unordered list*), where every `<li>` is an item in that list (called a *list item*). But what if you want a numbered list?  You could change `<ul>` to `<ol>` (and don't forget its closing tag), it's that simple!  `<ol>` is an *ordered list*, which has numbers instead of bullet points, and that is truly the only difference.  Add some list items (`<li>`) to the list (make sure you stay inside the `<ul> tags`), and then change your `<ul>` tags to `<ol>`!
+And finally, we have `<ul>`.  `<ul>` means a bulleted list (also known as an *unordered list*), where every `<li>` is an item in that list (called a *list item*). But what if you want a numbered list?  You could change `<ul>` to `<ol>` (and don't forget its closing tag), it's that simple!  `<ol>` is an *ordered list*, which has numbers instead of bullet points, and that is truly the only difference.  Add some list items (`<li>`) to the list (make sure you stay inside the `<ul>` tags), and then change your `<ul>` tags to `<ol>`!
+
+###Links
+
+Links are what makes the world/Internet go 'round.  Seriously.  So, let's learn about them.
+
+Links are made with the `<a>` tag, which stands for *anchor*.  
+
+Add this piece of code after your list in part2.html:
+
+	<p>This paragraph <a href="http://www.cassidoo.co">has a totally awesome link.</a></p>
+
+Okay, so let's take a look at this.  First of all, you can see the `<a>` tag there contained in the paragraph.  Beautiful.
+But what's that funky milk `href=`?  Well, that syntax called an *attribute*.  Attributes change the way a tag works, and are not visible to the website's user.  You only add attributes to the opening tag, not a closing tag.  Tags can have multiple attributes, for example `<tag attribute="value1" attribute2="value2">Contenf of tag</tag>`.  Got it?  Good.  You're so good looking.
+
+So, anyway, the attribute 'href' tells us where the link is going to go when the user clicks on it (and for those curious, it stands for *hyperreference*).  Try adding some more links to the page to different websites!  
+
+Also, one thing you should note:  Links don't have to be in `<p>` tags like I put above.  You could put them in `<li>` tags in a list, `<h1>` tags for a linking header, or completely on their own!
+
+###Other tags
+
+So, you can reference the links that I showed you before if you want to check out some jazzy things you can do with your page.  There are some other ones though that you might want to see before we move on to cooler and bigger things.
+
+But until I commit the next part of the tutorial, you'll have to keep waiting.  Sucka.
 
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
