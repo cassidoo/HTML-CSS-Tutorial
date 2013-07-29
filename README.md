@@ -96,9 +96,11 @@ Links are what makes the world/Internet go 'round.  Seriously.  So, let's learn 
 
 Links are made with the `<a>` tag, which stands for *anchor*.  
 
-Add this piece of code after your list in part2.html:
+Open up the Tags folder, and add this piece of code after your heading in page1.html:
 
-	<p>This paragraph <a href="http://www.cassidoo.co">has a totally awesome link.</a></p>
+	<p>This paragraph <a href="http://www.lalalalalalalalalalalalalalalalalala.com/">has a totally awesome link.</a></p>
+	
+Open page1.html in a browser and click on it!  BEAUTIFUL.
 
 Okay, so let's take a look at this.  First of all, you can see the `<a>` tag there contained in the paragraph.  Beautiful.
 But what's that funky milk `href=`?  Well, that syntax called an *attribute*.  Attributes change the way a tag works, and are not visible to the website's user.  You only add attributes to the opening tag, not a closing tag.  Tags can have multiple attributes, for example `<tag attribute="value1" attribute2="value2">Contenf of tag</tag>`.  Got it?  Good.  You're so good looking.
@@ -107,11 +109,61 @@ So, anyway, the attribute 'href' tells us where the link is going to go when the
 
 Also, one thing you should note:  Links don't have to be in `<p>` tags like I put above.  You could put them in `<li>` tags in a list, `<h1>` tags for a linking header, or completely on their own!
 
+####Adding links to other pages in your website
+Let's just say you have a fully functioning website called fakewebsite.com.  You have your homepage and your "Contact Us" page in the same directory or folder.
+
+Normally when a beginner links to different pages on their website, they just make links that look like `<a href="http://www.fakewebsite.com/index.htmL">Home</a>` and `<a href="http://www.fakewebsite.com/contactus.htmL">Contact Us</a>`.
+
+This is okay.  BUT, you can do better.  So, what if you change your domain name to reallyfakewebsite.com?  When you edit your HTML, you'd have to edit every single one of the links to match the new domain.  That's gross.  There is a better way.
+
+When you make a link to a page within your own directory or folder on your website, instead of putting in the whole URL, put in something more like this:
+
+	<a href="page2.html">Click here to go back to Page 2.</a>
+	
+Paste this line of code into page1.html.  Watch the magic happen.
+
+Now, if you were to change your domain or location of your files, you don't have to change a thing.  Boo yah.
+
 ###Other tags
 
-So, you can reference the links that I showed you before if you want to check out some jazzy things you can do with your page.  There are some other ones though that you might want to see before we move on to cooler and bigger things.
+So, you can reference the links that I showed you before if you want to check out some jazzy stuff you can do with your page.  There are some other ones though that you might want to see before we move on to cooler and bigger things.
 
-But until I commit the next part of the tutorial, you'll have to keep waiting.  Sucka.
+####Images
+`<img>`. Let's just say you want to put an image on your website.  This is probably a good tag to know.  
+Add the following to page1.html:
+
+	<img src="http://i.imgur.com/B9q0A.gif" />
+	
+Open up the page in a browser.  WHOA.  Image!  So, the `<img>` tag is one of those special tags.  First of all, it doesn't have a closing tag.  You just stick in a `/` at the end of the one tag and you're done.  Secondly, it also has a `src` attribute (which is short for *source*), and in the value of that attribute you put the URL of the image (similar to `href` in the anchor tag).
+
+####Line breaks
+Let's just say you want to keep all your content in one paragraph `<p>`, but you still want to break it up.
+
+That's easy.
+
+So, there's two special tags here, `<hr>` and `<br>`.  They are *empty tags*, meaning they have no closing tag.
+
+`<hr>` stands for *horizontal rule*, and creates a visible line break.
+`<br>` is a simple line break, all it does is split your paragraph up.
+
+Try inserting these in between some of your `<p>` tags to try it out!
+
+####Tables
+Tables are really cool.
+
+But until I commit the next part of the tutorial, you'll have to keep waiting to hear about them.  Sucka.
 
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
+
+
+
+
+
+
+
+
+
+
+
+
