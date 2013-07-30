@@ -103,7 +103,11 @@ Open up the Tags folder, and add this piece of code after your heading in page1.
 Open page1.html in a browser and click on it!  BEAUTIFUL.
 
 Okay, so let's take a look at this.  First of all, you can see the `<a>` tag there contained in the paragraph.  Beautiful.
-But what's that funky milk `href=`?  Well, that syntax called an *attribute*.  Attributes change the way a tag works, and are not visible to the website's user.  You only add attributes to the opening tag, not a closing tag.  Tags can have multiple attributes, for example `<tag attribute="value1" attribute2="value2">Contenf of tag</tag>`.  Got it?  Good.  You're so good looking.
+But what's that funky milk `href=`?  Well, that syntax called an *attribute*.  Attributes change the way a tag works, and are not visible to the website's user.  You only add attributes to the opening tag, not a closing tag.  Tags can have multiple attributes, for example:
+
+	<tag attribute="value1" attribute2="value2">Content of tag</tag>`
+
+Got it?  Good.  You're so good looking.
 
 So, anyway, the attribute 'href' tells us where the link is going to go when the user clicks on it (and for those curious, it stands for *hyperreference*).  Try adding some more links to the page to different websites!  
 
@@ -149,7 +153,83 @@ So, there's two special tags here, `<hr>` and `<br>`.  They are *empty tags*, me
 Try inserting these in between some of your `<p>` tags to try it out!
 
 ####Tables
-Tables are really cool.
+Tables are really cool.  They can also be a bit confusing.  Open up tables.html (in the Tags folder) in a browser to check out the example table I made for you there.
+
+There's several tags for tables, but the essential ones are `<table>`, `<tr>`, `<th>`, and `<td>`.  Look at tables.html in your editor.
+
+We're going to make our own table again on this page.  You can delete the one I made for you, or just make one underneath the current one there.
+
+So, to create a table, you start with the `<table>` tag.  Simple enough.
+	
+This will contain all the parts of your table.  Sometimes, tables have a `border` attribute that will equal some value for the thickness of the table's border.  Go ahead and add one so it looks like this:
+
+	<table border="1">
+	</table>
+	
+Boom.  Let's add some more.
+
+The next tag we're gonna check out is `<tr>`, which is for a *table row*.  Easy peasy.  So, let's add 3 `<tr>` tags to our table.
+
+	<table border="1">
+		<tr>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+		</tr>
+	</table>
+	
+And finally, we have the actual cells of the table.  There are two types of tags for this, `<th>` (*table header*) and `<td>` (*table data*).  As their names indicate, the former is for the header of the table and the latter is for all of the data in the table.
+
+In our first set of `<tr>` tags, add 4 `<th>` tags, and in the second and third `<tr>` tags add 4 `<td>` tags.
+
+	<table border="1">
+		<tr>
+			<th></th>
+			<th></th>
+			<th></th>
+			<th></th>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	
+Alright!  Our table is all set up.  We have a table with a `border=1` attribute, 3 rows, and 4 columns.  Let's populate it with data so you can see a proper application of the `<table>` tag:
+
+	<table border="1">
+		<tr>
+			<th>Item</th>
+			<th>Quantity</th>
+			<th>Rate</th>
+			<th>Cost</th>
+		</tr>
+		<tr>
+			<td>Candy</td>
+			<td>10</td>
+			<td>$.50</td>
+			<td>$5.00</td>
+		</tr>
+		<tr>
+			<td>Toothpaste</td>
+			<td>2</td>
+			<td>$3.00</td>
+			<td>$6.00</td>
+		</tr>
+	</table>
+	
+Open the page in a browser and check out your work.  Nice job!  I'm truly impressed.  Go eat something good and fattening.
+
+You can also nest tables, but I won't get into that right now.  If you want to play around with the code, try adding some `<tr>` and `<td>` tags inside your current `<td>` tags.  MaGiCal ThInGs.
 
 But until I commit the next part of the tutorial, you'll have to keep waiting to hear about them.  Sucka.
 
