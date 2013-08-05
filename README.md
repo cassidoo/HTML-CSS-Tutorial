@@ -30,7 +30,7 @@ Because this stuff is important.  Whether you're a business person formatting yo
 
 So the first thing you'll need is an editor to edit your jazz.  There's tons of options out there.
 
-- [Notepad](http://en.wikipedia.org/wiki/Notepad_(Windows)) (that's right, the stupid thing that comes on your PC) - This is about as basic as you can get.  It's totally okay if you want to use this, but I recommend one of the editors below just so you can see code highlighting (which will help you out later on).  But, if you want to be a purist, this'll work just fine.
+- Notepad (that's right, the stupid thing that comes on your PC) - This is about as basic as you can get.  It's totally okay if you want to use this, but I recommend one of the editors below just so you can see code highlighting (which will help you out later on).  But, if you want to be a purist, this'll work just fine.
 - [Aptana Studio 3](http://aptana.com/) - This is what I typically use.  It's fairly easy to navigate, you create projects in it and it supports standard web projects, PHP, and Ruby.  If you're a beginner that probably means nothing to you.  Anyway, a decent choice.
 - [Sublime Text 2](http://www.sublimetext.com/2) - This is a pretty popular option, and for good reason.  Very clean interface.  Once you can navigate it (learning curve isn't that big), it's pretty dreamy.  Like your face.
 - [Notepad++](http://notepad-plus-plus.org/) - This is just one step up from Notepad.  But it's pretty dece.  Code highlighting is in it, and nothing else too fancy, which is what I like about it.
@@ -229,12 +229,58 @@ Alright!  Our table is all set up.  We have a table with a `border=1` attribute,
 	
 Open the page in a browser and check out your work.  Nice job!  I'm truly impressed.  Go eat something good and fattening.
 
+One other fun thing you can try playing with are the `colspan` and `rowspan` attributes.  If you add `colspan="2"` (or `rowspan`, or any other number) into a `<th>` or `<td>` tag, the cell will expand past their cell size.  For example, `<th colspan="2">` will give you a table header that spans 2 columns, and `<td rowspan="3">` will yield a cell that is the height of 3 rows.  Jazzy!
+
 You can also nest tables, but I won't get into that right now.  If you want to play around with the code, try adding some `<tr>` and `<td>` tags inside your current `<td>` tags.  MaGiCal ThInGs.
 
-But until I commit the next part of the tutorial, you'll have to keep waiting to hear about them.  Sucka.
+###Making Things Gorgeous The Wrong Way
+
+So, your website right now looks pretty bland, and that's normal.  But, we want a website that is hot, sexy, ravishing, and powerful.  Yes, that's right, we want a website just like you.
+
+So first, I will show you the wrong way to style your pages.  You might ask why, but trust me, if you learn in this order, you'll understand HTML attributes a lot better, and then when you move on to CSS your mind will explode with joy.  Explode.
+
+####Colors
+
+Alrighty.  Let's get frisky.  Open up the Styles folder and the file style1.html.  You might notice that this file is pretty bland right now, but that's what we're gonna fix.  Be patient, my grasshopper.
+
+Add this line of code in the `<body>` somewhere below the header tags (I made a lot for fun... you can change them if you want): `<p style="color: red">This text is hot like my body</p>`
+
+Oh man.  Load that baby in a browser.  WHAT.  MAGNIFICENT.  COLOR.
+
+The first thing we'll look at is the `style` attribute.  You can style all kind of things in that, from colors to widths to heights to borders to weights.  But for now, let's just talk color.
+
+So, you might wonder, "what the heck how does that work can I just type any color in that space where red is?"  And the answer is no.  You can type a ton of colors there, like `blue` and `yellow` and `cyan` and `magenta`, but you can't just say `oasisorange` or `electricwhite` and hope that that'll work.
+
+How do you get a specific color of your liking?  Well that's when you use RGB or HEX colors.  This is kind of a pain to grasp, it took me a little bit, so I'll explain it as simply as I can:  RGB stands for Red, Green, and Blue.  You can have the values 0 to 255 in each to form pretty much any color in existance.  Whoa.  The way to form an RGB code similarly to the one above is simple: `style="color: rgb(255,0,0)"`.  In this example, there's 255 reds, 0 greens, and 0 blues.  So, it's all red.  Boom, simple enough.
+Now HEX colors is very similar.  It consists of the hashtag sign `#`, and then 6 *hexadecimal digits*, which are 0123456789ABCDEF, with F being the highest digit.  Like RGB, the first two digits of HEX are reds, the second two digits are blues, and the third couple of digits are greens.  So, to write the same color code above, you'd do `style="color: #FF0000"` to get red, because you have FF for reds, 00 for blues, and 00 for greens.  Simple?  Simple.  
+
+Don't worry, you won't have to come up with RGB and HEX colors yourself.  There's plenty of websites and programs and color pickers out there to help you with that.  Here's a few:
+
+- [Color Picker](http://www.colorpicker.com/)
+- [HTML color codes and names](http://www.computerhope.com/htmcolor.htm)
+- [HTML Color Codes](http://html-color-codes.info/)
+- [HTML Color Picker](http://www.w3schools.com/tags/ref_colorpicker.asp)
+
+Try adding colors to various tags on the page!  You can make your `<h1>` the color `#005DFC`, your `<h3>` rgb(242,127,56), and your `<p>` `lightblue`.
 
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
