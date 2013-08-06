@@ -140,6 +140,12 @@ Add the following to page1.html:
 	
 Open up the page in a browser.  WHOA.  Image!  So, the `<img>` tag is one of those special tags.  First of all, it doesn't have a closing tag.  You just stick in a `/` at the end of the one tag and you're done.  Secondly, it also has a `src` attribute (which is short for *source*), and in the value of that attribute you put the URL of the image (similar to `href` in the anchor tag).
 
+One attribute that might be good for you to remember for `<img>` tags is the `alt` attribute.  If you changed the code above to:
+
+	<img src="http://i.imgur.com/B9q0A.gif" alt="I could have danced all night" />
+
+When you load the page in the browser, the image looks the same.  But, if you roll your mouse over the image, you'll see some words appear!  WOW.  That's the `alt` attribute.  It stands for the *alternate text* for an image, and it's used when a user can't view the image for whatever reason (slow connection, error in the `src` attribute, etc.).  Or, in the case of [XKCD](http://xkcd.com/), it's used to add more humor to the page (roll your mouse over all of the comics on the site, they always add another joke or two that a lot of people don't know about).
+
 ####Line breaks
 Let's just say you want to keep all your content in one paragraph `<p>`, but you still want to break it up.
 
@@ -161,7 +167,7 @@ We're going to make our own table again on this page.  You can delete the one I 
 
 So, to create a table, you start with the `<table>` tag.  Simple enough.
 	
-This will contain all the parts of your table.  Sometimes, tables have a `border` attribute that will equal some value for the thickness of the table's border.  Go ahead and add one so it looks like this:
+This will contain all the parts of your table.  Sometimes, tables have a `border` attribute that will equal some value for the thickness of the table's border (it's proper to have just "1" or nothing, for reasons we'll explain later).  Go ahead and add one so it looks like this:
 
 	<table border="1">
 	</table>
@@ -243,7 +249,7 @@ So first, I will show you the wrong way to style your pages.  You might ask why,
 
 Alrighty.  Let's get frisky.  Open up the Styles folder and the file style1.html.  You might notice that this file is pretty bland right now, but that's what we're gonna fix.  Be patient, my grasshopper.
 
-Add this line of code in the `<body>` somewhere below the header tags (I made a lot for fun... you can change them if you want): `<p style="color: red">This text is hot like my body</p>`
+Add this line of code in the `<body>` somewhere below the header tags (I made a lot for fun...): `<p style="color: red">This text is hot like my body</p>`
 
 Oh man.  Load that baby in a browser.  WHAT.  MAGNIFICENT.  COLOR.
 
@@ -262,7 +268,55 @@ Don't worry, you won't have to come up with RGB and HEX colors yourself.  There'
 - [HTML Color Codes](http://html-color-codes.info/)
 - [HTML Color Picker](http://www.w3schools.com/tags/ref_colorpicker.asp)
 
-Try adding colors to various tags on the page!  You can make your `<h1>` the color `#005DFC`, your `<h3>` tag `rgb(242,127,56)`, and your `<p>` tag `lightblue`.
+Try adding colors to various tags on the page!  You can make your `<h1>` the color `#005DFC`, your `<h3>` tag `rgb(242,127,56)`, and your `<p>` tag `lightblue`.  Keep playing til you're happy.
+
+Now, you might see the syntax in your HTML journey where you actually have the `color` attribute, like `<p color="red">wut</p>`.  Though this is technically allowed, please don't do this.  Please.  You'll be so much happier in the long run, I promise.
+
+####Width and Height
+
+So, what if you want to make a picture or a paragraph a different size?  Easy peasy.
+
+There are two options you can use, the `style` attribute and the `width` and `height` attributes.  I'll show you both.
+
+Take this block of code here and stick it into style1.html:
+
+	<img src="http://i.imgur.com/wjiVXJe.gif" />
+	
+Now, let's just say you want the image to be an exact size, say, 600x800.  All you need to do is add `width` and `height` attributes to do just that!
+	
+	<img src="http://i.imgur.com/wjiVXJe.gif" width="600" height="800" />
+	
+Load that baby in a browser.  Boo yah.  But, you'll notice that the proportions of the image are a little off.  What a pain.  That's actually pretty easy to fix.  Let's say that you absolutely have to have the width at 600 pixels, but the height can slide.  It's as easy as taking out the `height` attribute.
+
+	<img src="http://i.imgur.com/wjiVXJe.gif" width="600" />
+
+Huzzah.  Same works for if you have a set height that you want, just include the `height` attribute and not the `width`.
+
+Now, you can also do this with the `style` attribute.  
+
+	<img src="http://i.imgur.com/wjiVXJe.gif" style="width: 600px" />
+
+Simple enough!  Now, we've looked at the `style attribute a bit now but I haven't explained the syntax.  The `style` attribute is for *inline styles*.  This means that you're styling your HTML directly in each element, rather than using CSS.  But, we haven't gotten that far yet, so I won't go into that part.
+Now, the syntax within a `style` attribute is a little funky.  It is always `style="property: value"`, where the *property* is literally a property of the tag you're editing (for example, `color`, `width`, `height`), and the *value* is to what you're changing or editing the property (for example `blue`, `600px`, `#FF0000`).
+If you have more than one property that you want to style, for example both height and width, you put a semicolon between delarations.  So, in our example, if you want to edit both height and width of our image in the `style` attribute, we'd do:
+
+	<img src="http://i.imgur.com/wjiVXJe.gif" style="width: 600px; height: 800px" />
+	
+Why is the syntax this funky?  Well, that's because it's secretly CSS syntax.  But we'll get into that more later.
+
+####Borders
+
+What if we have a paragraph IN A BOX.  That's right.  Kind of like a table.  But not.  That'd be cool.  Of course, there are plenty of other things that can have a border.  Buttons (we'll get to those later), color blocks (also later), and images, and MORE can have them.  Mmmhm.
+
+Let's take the same image we played with before:
+
+	<img src="http://i.imgur.com/wjiVXJe.gif" />
+
+Now, you can add `border="5"` to this and you'll get a border with a thickness of 5 pixels around the image.  But, this attribute is actually no longer supported for things other than tables (oh yeah, we used this for tables.  Memories.), so we can do this a better way.  You guessed it. `style` is coming to SAVE THE DAY.
+
+The styling for borders with the `style` attribute is a bit different than just adding `border="5"`, but it's also much more powerful.  Let's change our code.
+
+
 
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
