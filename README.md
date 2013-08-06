@@ -314,9 +314,27 @@ Let's take the same image we played with before:
 
 Now, you can add `border="5"` to this and you'll get a border with a thickness of 5 pixels around the image.  But, this attribute is actually no longer supported for things other than tables (oh yeah, we used this for tables.  Memories.), so we can do this a better way.  You guessed it. `style` is coming to SAVE THE DAY.
 
-The styling for borders with the `style` attribute is a bit different than just adding `border="5"`, but it's also much more powerful.  Let's change our code.
+The styling for borders with the `style` attribute is a bit different than just adding `border="5"`, but it's also much more powerful.  Let's change our code:
 
+	<img src="http://i.imgur.com/wjiVXJe.gif" style="border:5px solid black" />
 
+Whoa.  That's a lot of crap in there.  Let's break it down.
+
+The first part of the declaration is obvious, `border`.  This is the property that we're editing.  Man, this is easy.
+
+Next, we have 3 parts in the value section.  The first part is `5px`.  Firstly, `px` stands for *pixels*.  We used this above for our width and heights as well.  You alwaysh ave to include the units (just like in 5th grade math) in your styling, and our units here are pixels.  Now, that whole first part, `5px`, is the border's thickness.  You guessed it: it's 5 pixels thick.  Gosh you're smart.
+The next part is the *border style*.  You can plug in several words here, as indicated [on this webpage](http://www.w3schools.com/css/css_border.asp).  We used `solid`, but you can also say `dotted`, `dashed`, or `double`.  There are some other words you can use, but those depend on the color of the border.  
+Color?  What?  OH YEAH.  That's the third part of the border style.  You can stick in any color for that, but in this example, we have `black`.
+
+Let's mix it up a bit with different borders for you to check out.  I'm just going to keep using the same image, you can replace it with whatever.  Stick this in style1.html and check it out, and play with the values yourself!
+
+	<img src="http://i.imgur.com/wjiVXJe.gif" style="border:5px dotted #ffcc00" />
+	<img src="http://i.imgur.com/wjiVXJe.gif" style="border:10px ridge rgb(77, 145, 99); width: 300px" />
+	<img src="http://i.imgur.com/wjiVXJe.gif" style="border:8px outset red" />	
+	<img src="http://i.imgur.com/wjiVXJe.gif" style="border:3px double #333a21; height: 30px" />
+			
+			
+Notice how I added `width` and `height` to a couple of them.  We're getting incestuous with our stylings.  Aww yeah.
 
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
