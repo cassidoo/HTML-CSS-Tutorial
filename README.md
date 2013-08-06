@@ -336,6 +336,66 @@ Let's mix it up a bit with different borders for you to check out.  I'm just goi
 			
 Notice how I added `width` and `height` to a couple of them.  We're getting incestuous with our stylings.  Aww yeah.
 
+####Text styles
+
+Besides having header tags and colors, there are other text styles that you can use.  What if you want bold text, or italics?  Different sizes?  Once again, the `style` attribute comes to the rescue.
+
+Add the following to style1.html:
+	
+	<p style="text-align: center; font-weight: bold">This text is magnificent.</p>
+
+Load that in a browser and check it out.  YUS.  You've got some magically centered, bolded text!  The properties defined here are pretty simple to follow.  `text-align` lets you align your text either `center`, `left`, or `right`.  Mess around with that so you get it.
+`font-weight`, you guessed it, edits the weight in your text.  It can have the values `normal` for normally weighted text, `bold` for thick characters, `bolder` for thicker characters (specific, right?), `lighter` for lighter-weighted characters, and the numbers `100`, `200`, `300`, `400`, `500`, `600`, `700`, `800`, and `900` (where 400 is the same as normal and 700 is the same as bold).
+
+Play with this one now:
+	
+	<p style="font-family: Arial; font-style: italic">This text is magnificent.</p>
+	
+Browser time.  You've now got some text in the font Arial, and it's italic!  WOOO HOOOOOO.  
+The properties we used here are `font-family` and `font-style`.  For the former, you can choose a lot of fonts, but you have to be careful.  Not every computer has the same fonts.  This is just my personal opinion: don't put something here besides Arial unless you've done some Javascript magic.  And because I'm assuming you don't know Javascript, don't use this unless you're changing this to Arial.  At least not yet. :)
+And for `font-style`, it can be `normal`, `oblique`, and `italic`.  You can play with those now, it's pretty straightforward.
+
+###The `<head>` Tag
+
+Before we start going insane with how good you are at HTML, let's start looking at something that you haven't played with yet.  The `<head>` tag.
+
+I mentioned before that in the `<head>` is information that the user doesn't see, so it's not that big of a deal, right?  WRONG.  It's not all about looks.  That's at least what I try to tell people when they see me.  Anyway...
+
+So.  What else can go in the `<head>`?  We've already got `<title>`, which we've talked about already to help search engines find us.  What if we want to help the search engines out a bit more?  Incoming, the `<meta>` tag.
+
+The `<meta>` tag gives *metadata* about the HTML document. Metadata will not be displayed on the page, but machines can read it.  An example of metadata not on a webpage is in a typical music file.  When you have a music file on your computer and you open it in some media player of some kind, it shows the album title, the artist, the genre, and other information about the song.  This information is metadata.  The user can't see it directly in the music file, but your music players can read it and will tell you what it is.
+So, on a website, this metadata is used by search engines, your browser, and other web services to make your website easy to find, read, and display.
+
+There are 4 important uses for the `<meta>` tag.  There are plenty of other uses, but let's be honest, I don't care about them right now, and I don't think you do either.  Open up the Cooking folder, and open cooking.html in your favorite editor.
+
+- *Defining keywords for search engines.*  Let's say that you have a website that's about cooking, hence our filename.  You want people searching for your website to be able to find it.  So, you can add the following right before the `<title>` tag:
+
+	<meta name="keywords" content="cooking, cook, recipe, food, microwave">
+	
+Simple enough.  Now, when people search using the terms cooking, cook, recipe, food, and microwave, your website is pushed up in the results.  Nice!
+	
+- *Defining a description of your site.*  Again, this one is for the search engines.  Whenever you search for a website, there's a tiny description in the search results.  Go search for anything right now, and you'll see it.  So, you can define what that is with this snippet:
+
+	<meta name="description" content="The best cooking website in the entire universe.  You're welcome.">
+
+Add this right after the keywords line in cooking.html.  Now if people were searching for this, they'd get this description and instantly see that your website is the best cooking website in the universe.
+
+- *Defining the author of a website.*  Let's say that someone's looking for the author of your website, because your writing style is sexy.  Or something.  You can let them know who you are with the following:
+
+	<meta name="author" content="Sexy McGoodlooking">
+	
+Add this after your description line, and stick your name in it!  I think I got it as close as possible.
+
+- *Refreshing your document every 30 seconds.* This one is for your browser.  Let's say that you have comments available on your recipes, and you want to have the page refresh so the comments can appear "live".  Just add this:
+
+	<meta http-equiv="refresh" content="30">
+	
+And there you have it, a self-refreshing webpage.  You're so good at this.
+
+###Putting it all together so far
+
+Okay, you have a pretty solid understanding of stuff so far.  I want you to take cooking.html, and make it SPARKLE.  Resize the images so the page is more uniform.  Add borders.  Change the font styles and weights.  Change the colors.  Using the information I've given you so far, you can make a pretty good looking site!
+
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
 
