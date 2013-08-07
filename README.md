@@ -475,7 +475,7 @@ How about we style one of the classes specifically?  It's simple.  Just take the
 	
 	}
 
-And there you have it!  Even though you might have different styles for your paragraphs, you can style the ones of class `poemtitle` individually.  For this example, let's make all paragraphs with the font family Arial, the poem titles' font weight `bolder`, the authors the color `#555555`, and the poems in `italic`.  Try doing it on your own if you can (just put your code in the given `<style>` tags, but you're welcome to cheat:
+And there you have it!  Even though you might have different styles for your paragraphs, you can style the ones of class `poemtitle` individually.  For this example, let's make all paragraphs with the font family Arial, the poem titles' font weight `bolder`, the authors the color `#555555`, and the poems in `italic`.  Try doing it on your own if you can (just put your code in the given `<style>` tags), but you're welcome to cheat:
 
 	p
 	{
