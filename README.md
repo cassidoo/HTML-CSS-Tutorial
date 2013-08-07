@@ -24,7 +24,7 @@ On a computer.  Here.
 
 Because this stuff is important.  Whether you're a business person formatting your emails, an aspiring web designer wanting to get your feet wet, or just someone who is interested and hasn't tried any sort of coding, scripting, or programming before, **HTML and CSS are an essential part** of your learning curve.
 
-##Let's Go.
+##HTML Time. Let's Go.
 
 ###Editors
 
@@ -54,7 +54,7 @@ Here is a barebones HTML page, about as simple as you can get.  You can open it 
 	</html>
 
 So, what are we looking at here?
-HTML consists of these things called tags, which are names written between `<` and `>` characters, like `<sometag>`.  All tags (with just a few exceptions that we'll talk about later) have a matching closing tag, which has the same name as the opening tag, except that it contains `/` after the first `<`, like `</sometag>`. 
+HTML, short for *HyperText Markup Language*, consists of these things called tags, which are names written between `<` and `>` characters, like `<sometag>`.  All tags (with just a few exceptions that we'll talk about later) have a matching closing tag, which has the same name as the opening tag, except that it contains `/` after the first `<`, like `</sometag>`. 
 
 For example, `<html>` is one tag and the closing tag for it is `</html>`, same with `<head>` and `</head>` and `<body>` and `</body>`, and so on.  You get it.
 The opening and closing tags together are an *element* (which also includes everything written in it).  For example, `<title>My Website</title>` is one element.  The text inside an element, in the title case, `My Website`, is called the *content* of an element.
@@ -394,7 +394,38 @@ And there you have it, a self-refreshing webpage.  You're so good at this.
 
 ###Putting it all together so far
 
-Okay, you have a pretty solid understanding of stuff so far.  I want you to take cooking.html, and make it SPARKLE.  Resize the images so the page is more uniform.  Add borders to them.  Change the font styles and weights.  Change the colors.  Using the information I've given you so far, you can make a pretty good looking site!
+Okay, you have a pretty solid understanding of stuff so far.  I want you to take cooking.html, and make it SPARKLE.  Resize the images so the page is more uniform.  Add borders to them.  Change the font styles and weights.  Change the colors.  Add some keywords in the metadata and change the title of the page.  Using the information I've given you so far, you can make a pretty good looking site!
+
+##CSS is magical, and now you're gonna learn it.
+
+So far, we've been making things pretty the wrong way.  So, we're going to learn it the right way.  So excited.
+
+Right now, I'm going to show you how to write CSS just straight in your HTML documents.  That's still kind of wrong, but it'll give you the basics.  After that, we'll move into the big leagues and have separate files for everything.  Pumped.  
+
+Open up your Styles folder again and open style2.html in your favorite editor.  This site is pretty barebones.  Let's take out the barebones part and just make it pretty.
+
+We're going to be working in the `<head>` tag again.  Underneath the `<title>` tag, stick in the following:
+
+	<style>
+		body
+		{
+			
+		}
+		h1
+		{
+		
+		}
+		p
+		{
+		
+		}
+		ol
+		{
+		
+		}
+	</style>
+	
+Congratulations.  You have some empty CSS.  Now, what the heck is CSS anyway?  Well, CSS stands for *Cascading Style Sheets*.  Gee whiz, that word *style* is everywhere.  And it's true.  The `style` attribute is for styling *inline* HTML (just that line of code), the `<style>` tag is for holding CSS, and CSS *defines* the styles!  Let that sink in.  Nice.
 
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
