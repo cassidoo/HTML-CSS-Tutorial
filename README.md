@@ -370,31 +370,31 @@ There are 4 important uses for the `<meta>` tag.  There are plenty of other uses
 
 - *Defining keywords for search engines.*  Let's say that you have a website that's about cooking, hence our filename.  You want people searching for your website to be able to find it.  So, you can add the following right before the `<title>` tag:
 
-	<meta name="keywords" content="cooking, cook, recipe, food, microwave">
+`<meta name="keywords" content="cooking, cook, recipe, food, microwave">`
 	
 Simple enough.  Now, when people search using the terms cooking, cook, recipe, food, and microwave, your website is pushed up in the results.  Nice!
 	
 - *Defining a description of your site.*  Again, this one is for the search engines.  Whenever you search for a website, there's a tiny description in the search results.  Go search for anything right now, and you'll see it.  So, you can define what that is with this snippet:
 
-	<meta name="description" content="The best cooking website in the entire universe.  You're welcome.">
+`<meta name="description" content="The best cooking website in the entire universe.  You're welcome.">`
 
 Add this right after the keywords line in cooking.html.  Now if people were searching for this, they'd get this description and instantly see that your website is the best cooking website in the universe.
 
 - *Defining the author of a website.*  Let's say that someone's looking for the author of your website, because your writing style is sexy.  Or something.  You can let them know who you are with the following:
 
-	<meta name="author" content="Sexy McGoodlooking">
+`<meta name="author" content="Sexy McGoodlooking">`
 	
 Add this after your description line, and stick your name in it!  I think I got it as close as possible.
 
 - *Refreshing your document every 30 seconds.* This one is for your browser.  Let's say that you have comments available on your recipes, and you want to have the page refresh so the comments can appear "live".  Just add this:
 
-	<meta http-equiv="refresh" content="30">
+`<meta http-equiv="refresh" content="30">`
 	
 And there you have it, a self-refreshing webpage.  You're so good at this.
 
 ###Putting it all together so far
 
-Okay, you have a pretty solid understanding of stuff so far.  I want you to take cooking.html, and make it SPARKLE.  Resize the images so the page is more uniform.  Add borders.  Change the font styles and weights.  Change the colors.  Using the information I've given you so far, you can make a pretty good looking site!
+Okay, you have a pretty solid understanding of stuff so far.  I want you to take cooking.html, and make it SPARKLE.  Resize the images so the page is more uniform.  Add borders to them.  Change the font styles and weights.  Change the colors.  Using the information I've given you so far, you can make a pretty good looking site!
 
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
