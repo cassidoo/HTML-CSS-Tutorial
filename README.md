@@ -408,24 +408,16 @@ We're going to be working in the `<head>` tag again.  Underneath the `<title>` t
 
 	<style>
 		body
-		{
-			
-		}
+		{ }
 		
 		h1
-		{
-		
-		}
+		{ }
 		
 		p
-		{
-		
-		}
+		{ }
 		
 		ol
-		{
-		
-		}
+		{ }
 	</style>
 	
 Congratulations.  You have some empty CSS.  Now, what the heck is CSS anyway?  Well, CSS stands for *Cascading Style Sheets*.  Gee whiz, that word *style* is everywhere.  And it's true.  The `style` attribute is for styling *inline* HTML (just that line of code), the `<style>` tag is for holding CSS, and CSS *defines* the styles!  Let that sink in.  Nice.
@@ -468,7 +460,41 @@ Recognize that?  It's exactly the same!  For each selector, there is a *property
 
 You will always have your CSS in the syntax, `selector { property: value; property: value; }`.  I've only shown you some properties so far, but don't worry.  There are plenty more to come.
 
-Try playing around with the CSS we have so far.  Edit the colors, add some borders, change the font styles.  Don't forget your semicolons!
+Try playing around with the CSS we have right now.  Edit the colors, add some borders, change the font styles.  Don't forget your semicolons!
+
+###Classes and IDs and other Segregation
+
+So, you have some of the CSS basics down already.  You're so smart.  It's really a simple language, once you know the basic syntax.  So, now we'll get into more fancy stuff.  What if you want to edit several tags differently?
+
+Let's say that we have 8 `<p>` tags on our HTML page (hint: open style3.html in the Styles folder).  If we want to style each of these tags differently, we can use *classes*.  A class is actually an HTML attribute that you can name whatever you want.  Check out style3.html to see the classes I added to the `<p>` tags on the page.  When you add a class, the user doesn't see it.  But, you can style specific classes to do what you want, instead of having all `<p>` tags be the same.
+
+How about we style one of the classes specifically?  It's simple.  Just take the class name you made up (I'll use the `poemtitle` class for my example) and add a period `.` in front of it to select it in CSS, like so:
+
+	.poemtitle
+	{
+	
+	}
+
+And there you have it!  Even though you might have different styles for your paragraphs, you can style the ones of class `poemtitle` individually.  For this example, let's make all paragraphs with the font family Arial, the poem titles' font weight `bolder`, the authors the color `#555555`, and the poems in `italic`.  Try doing it on your own if you can (just put your code in the given `<style>` tags, but you're welcome to cheat:
+
+	p
+	{
+		font-family: Arial;
+	}
+	.poemtitle
+	{
+		font-weight: bolder;
+	}
+	.author
+	{
+		color: #555555;
+	}
+	.poem
+	{
+		font-style: italic;
+	}
+	
+Gosh you're good at this.  Go eat a cookie.
 
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
