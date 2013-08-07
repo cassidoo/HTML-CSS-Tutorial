@@ -411,14 +411,17 @@ We're going to be working in the `<head>` tag again.  Underneath the `<title>` t
 		{
 			
 		}
+		
 		h1
 		{
 		
 		}
+		
 		p
 		{
 		
 		}
+		
 		ol
 		{
 		
@@ -426,6 +429,46 @@ We're going to be working in the `<head>` tag again.  Underneath the `<title>` t
 	</style>
 	
 Congratulations.  You have some empty CSS.  Now, what the heck is CSS anyway?  Well, CSS stands for *Cascading Style Sheets*.  Gee whiz, that word *style* is everywhere.  And it's true.  The `style` attribute is for styling *inline* HTML (just that line of code), the `<style>` tag is for holding CSS, and CSS *defines* the styles!  Let that sink in.  Nice.
+
+Now, you'll notice some familiar keywords in there, in particular, `body`, `h1`, `p`, and `ol`.  That's right, they're the tags we know and love!  But, in CSS, these are called *selectors*.  The selector tells us what tag you're about to style.  So, whatever code you put in between the curly braces `{}` after the `body` selector will affect everything in the `<body>` tags.  Whatever you put in the braces after the `p` selector will affect what's in the `<p>` tags.
+Whatever code you have in those curly braces will only affect that tag, so if you try editing the font colors for the `h1` selector, it won't affect whatever is in the `p` selector's tags.  Each portion of code `selector { code }` in CSS is called a *declaration*.  Make sense?  Good.  If not, keep reading and hopefully it will become more clear as we go on.
+
+The code that we're going to be putting in each declaration is the same syntax as the code that we normally put in the `style` attribute.  How convenient.  So, change your code above to the following:
+
+	<style>
+		body
+		{
+			font-family: Arial;
+		}
+		
+		h1
+		{
+			color: red;
+			text-align: center;
+		}
+		
+		p
+		{
+			font-weight: bolder;
+		}
+		
+		img
+		{
+			width: 400px;
+			border: 5px solid #333333;
+		}
+		
+		ol
+		{
+			color: #333333;
+		}
+	</style>
+
+Recognize that?  It's exactly the same!  For each selector, there is a *property* of that selector, and each property has a *value*, just like how we wrote it in the `style` attributes!
+
+You will always have your CSS in the syntax, `selector { property: value; property: value; }`.  I've only shown you some properties so far, but don't worry.  There are plenty more to come.
+
+Try playing around with the CSS we have so far.  Edit the colors, add some borders, change the font styles.  Don't forget your semicolons!
 
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
