@@ -519,7 +519,39 @@ Remember:  You can only use an ID once.  IDs are more helpful when you're contro
 
 Let's say that you want to separate individual text in your paragraphs or sections on your page.  Let's introduce 2 new tags: `<span>` and `<div>`.
 
-I'll tell you more about them after I've eaten some ice cream and taken a nap.
+#####`<span>`
+The `<span>` tag is pretty invisible unless you style it.  It's used to group inline-elements (so like a word in a paragraph), and it doesn't actually do anything unless you style or manipulate it with something else.
+
+So, let's say you have a paragraph and you really want to emphasize some text within a paragraph without a line break or anything.  In comes `<span>`.  For example:
+
+	<p>"My grandmother started walking <span>five miles a day</span> when she was sixty. She's ninety-seven now, and <span>we don't know where the heck she is.</span>" </p>
+	<p>~ Ellen DeGeneres </p>
+	
+In the above quote, you might want to style the `<span>` tags differently than the rest of the paragraph.  Maybe you want those words bold, or italics, or in red.  Now you can.
+
+Add some `<span>` tags around your favorite lines of the poems in style3.html.  Then, put the following CSS in your `<style>` tags:
+	
+	p span
+	{
+		font-style: italic;
+	}
+
+Wait a minute.  Hold up.  `p span`??  WHY THE SPACE?  Calm yourself, I'll tell you.  This is called *nesting* CSS.  When you have a space in your selector like this, it means that, in this case, the style will only affect `<span>` tags within `<p>` tags.  So, if you put `<span>` tags around a word in your `<h1>` tags, your CSS will not affect it.  You can still have a plain `span` selector, or nest it in one of your classes too:
+
+	span
+	{
+		font-weight: bold;
+	}
+	.author span
+	{
+		color: #999999;
+	}
+
+Make sense?  I hope so.  To sum up:  `<span>` tags separate specific parts of paragraphs or other inline sections of a page.  They do nothing otherwise.  You can nest CSS if you want.  Boom.  Next.
+
+#####`<div>`
+
+Psh like I'm going to write this before I eat another cookie.  Break time.
 
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
