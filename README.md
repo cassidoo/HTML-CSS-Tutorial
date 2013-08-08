@@ -496,6 +496,25 @@ And there you have it!  Even though you might have different styles for your par
 	
 Gosh you're good at this.  Go eat a cookie.
 
+[Pausing here for cookie break]
+
+Now, let's talk about IDs.  They are just like classes.  Done.
+
+LOLJK THEY'RE DIFFERENT.  But not by a lot!  So, the only real difference between classes and IDs is that you can only have one of each ID.  So, for example, if you have a special paragraph that you only want to style once, then you can stick in there the `id` attribute like so:
+
+	<p id="special">This is so special that I want it uniquely styled forever.</p>
+	
+When you want to style your IDs, you put a hashtag `#` before it in your CSS, like so:
+	
+	#special
+	{
+	
+	}
+	
+Remember:  You can only use an ID once.  IDs are more helpful when you're controlling the element with Javascript, not styling, but we'll talk about that later.
+
+
+
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
 
