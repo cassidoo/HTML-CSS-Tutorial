@@ -466,6 +466,8 @@ Try playing around with the CSS we have right now.  Edit the colors, add some bo
 
 So, you have some of the CSS basics down already.  You're so smart.  It's really a simple language, once you know the basic syntax.  So, now we'll get into more fancy stuff.  What if you want to edit several tags differently?
 
+####Classes
+
 Let's say that we have 8 `<p>` tags on our HTML page (hint: open style3.html in the Styles folder).  If we want to style each of these tags differently, we can use *classes*.  A class is actually an HTML attribute that you can name whatever you want.  Check out style3.html to see the classes I added to the `<p>` tags on the page.  When you add a class, the user doesn't see it.  But, you can style specific classes to do what you want, instead of having all `<p>` tags be the same.
 
 How about we style one of the classes specifically?  It's simple.  Just take the class name you made up (I'll use the `poemtitle` class for my example) and add a period `.` in front of it to select it in CSS, like so:
@@ -498,9 +500,9 @@ Gosh you're good at this.  Go eat a cookie.
 
 [Pausing here for cookie break]
 
-Now, let's talk about IDs.  They are just like classes.  Done.
+####IDs
 
-LOLJK THEY'RE DIFFERENT.  But not by a lot!  So, the only real difference between classes and IDs is that you can only have one of each ID.  So, for example, if you have a special paragraph that you only want to style once, then you can stick in there the `id` attribute like so:
+Now, let's talk about IDs.  They are very similar to classes.  The only real difference between classes and IDs is that you can only have one of each ID.  So, for example, if you have a special paragraph that you only want to style once, then you can stick in there the `id` attribute like so:
 
 	<p id="special">This is so special that I want it uniquely styled forever.</p>
 	
@@ -513,7 +515,11 @@ When you want to style your IDs, you put a hashtag `#` before it in your CSS, li
 	
 Remember:  You can only use an ID once.  IDs are more helpful when you're controlling the element with Javascript, not styling, but we'll talk about that later.
 
+####Other Segregation
 
+Let's say that you want to separate individual text in your paragraphs or sections on your page.  Let's introduce 2 new tags: `<span>` and `<div>`.
+
+I'll tell you more about them after I've eaten some ice cream and taken a nap.
 
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
