@@ -34,6 +34,7 @@ So the first thing you'll need is an editor to edit your jazz.  There's tons of 
 - [Aptana Studio 3](http://aptana.com/) - This is what I typically use.  It's fairly easy to navigate, you create projects in it and it supports standard web projects, PHP, and Ruby.  If you're a beginner that probably means nothing to you.  Anyway, a decent choice.
 - [Sublime Text 2](http://www.sublimetext.com/2) - This is a pretty popular option, and for good reason.  Very clean interface.  Once you can navigate it (learning curve isn't that big), it's pretty dreamy.  Like your face.
 - [Notepad++](http://notepad-plus-plus.org/) - This is just one step up from Notepad.  But it's pretty dece.  Code highlighting is in it, and nothing else too fancy, which is what I like about it.
+- [IDEcoder](http://icecoder.net/) - this is an in-browser code editor, which lets you code directly within the web browser, online or offline, it means you only need one program (your browser) to develop websites, which is cool
 
 There's a bunch of others [listed here](http://en.wikipedia.org/wiki/List_of_HTML_editors), I just listed the ones I've used and liked!
 
