@@ -10,7 +10,7 @@ And because it's useful.
 
 ###What
 
-In this tutorial, we'll start from the very beginning.  You don't need to know anything about HTML and CSS to start.  I'll include some tutorial files for you to play with and check out.
+In this tutorial, we'll start from the very beginning.  You don't need to know anything about HTML and CSS or anything about code to start.  I'll include some tutorial files for you to play with and check out.
 
 ###When
 
@@ -55,7 +55,7 @@ Here is a barebones HTML page, about as simple as you can get.  You can open it 
 	</html>
 
 So, what are we looking at here?
-HTML, short for *HyperText Markup Language*, consists of these things called tags, which are names written between `<` and `>` characters, like `<sometag>`.  All tags (with just a few exceptions that we'll talk about later) have a matching closing tag, which has the same name as the opening tag, except that it contains `/` after the first `<`, like `</sometag>`. 
+HTML, short for *HyperText Markup Language*, consists of these things called tags, which are words written between `<` and `>` characters, like `<sometag>`.  All tags (with just a few exceptions that we'll talk about later) have a matching closing tag, which has the same name as the opening tag, except that it contains `/` after the first `<`, like `</sometag>`. 
 
 For example, `<html>` is one tag and the closing tag for it is `</html>`, same with `<head>` and `</head>` and `<body>` and `</body>`, and so on.  You get it.
 The opening and closing tags together are an *element* (which also includes everything written in it).  For example, `<title>My Website</title>` is one element.  The text inside an element, in the title case, `My Website`, is called the *content* of an element.
@@ -553,6 +553,7 @@ Make sense?  I hope so.  To sum up:  `<span>` tags separate specific parts of pa
 #####The `<div>` tag
 
 Psh like I'm going to write this before I eat another cookie.  Break time.
+
 
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
