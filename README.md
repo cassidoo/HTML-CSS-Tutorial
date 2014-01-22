@@ -97,7 +97,7 @@ Links are what makes the world/Internet go 'round.  Seriously.  So, let's learn 
 
 Links are made with the `<a>` tag, which stands for *anchor*.  
 
-Open up the Tags folder, and add this piece of code after your heading in page1.html:
+Open up the Tags folder, and add this piece of code right after your heading in page1.html:
 
 	<p>This paragraph <a href="http://www.lalalalalalalalalalalalalalalalalala.com/">has a totally awesome link.</a></p>
 	
@@ -145,7 +145,7 @@ One attribute that might be good for you to remember for `<img>` tags is the `al
 
 	<img src="http://i.imgur.com/B9q0A.gif" alt="I could have danced all night" />
 
-When you load the page in the browser, the image looks the same.  But, if you roll your mouse over the image, you'll see some words appear!  WOW.  That's the `alt` attribute.  It stands for the *alternate text* for an image, and it's used when a user can't view the image for whatever reason (slow connection, error in the `src` attribute, etc.).  Or, in the case of [XKCD](http://xkcd.com/), it's used to add more humor to the page (roll your mouse over all of the comics on the site, they always add another joke or two that a lot of people don't know about).
+When you load the page in the browser, the image looks the same.  But, if you roll your mouse over the image, you'll see some words appear!  WOW.  That's the `alt` attribute.  It stands for the *alternate text* for an image, and it's used when a user can't view the image for whatever reason (using a screen reader, slow connection, error in the `src` attribute, etc.).  Or, in the case of [XKCD](http://xkcd.com/), it's used to add more humor to the page (roll your mouse over all of the comics on the site, they always add another joke or two that a lot of people don't know about).
 
 ####Line breaks
 Let's just say you want to keep all your content in one paragraph `<p>`, but you still want to break it up.
