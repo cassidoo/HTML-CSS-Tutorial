@@ -291,13 +291,14 @@ Load that baby in a browser.  Boo yah.  But, you'll notice that the proportions 
 
 	<img src="http://i.imgur.com/wjiVXJe.gif" width="600" />
 
-Huzzah.  Same works for if you have a set height that you want, just include the `height` attribute and not the `width`.
+Refresh dat page.  Huzzah.  Same works for if you have a set height that you want, just include the `height` attribute and not the `width`.
 
-Now, you can also do this with the `style` attribute.  
+Now, you can also do these changes with the `style` attribute.  
 
 	<img src="http://i.imgur.com/wjiVXJe.gif" style="width: 600px" />
 
 Simple enough!  Now, we've looked at the `style` attribute a bit now but I haven't explained the syntax.  The `style` attribute is for *inline styles*.  This means that you're styling your HTML directly in each element, rather than using CSS.  But, we haven't gotten that far yet, so I won't go into that part.
+
 Now, the syntax within a `style` attribute is a little funky.  It is always `style="property: value"`, where the *property* is literally a property of the tag you're editing (for example, `color`, `width`, `height`), and the *value* is to what you're changing or editing the property (for example `blue`, `600px`, `#FF0000`).
 If you have more than one property that you want to style, for example both height and width, you put a semicolon between delarations.  So, in our example, if you want to edit both height and width of our image in the `style` attribute, we'd do:
 
@@ -323,11 +324,11 @@ Whoa.  That's a lot of crap in there.  Let's break it down.
 
 The first part of the declaration is obvious, `border`.  This is the property that we're editing.  Man, this is easy.
 
-Next, we have 3 parts in the value section.  The first part is `5px`.  Firstly, `px` stands for *pixels*.  We used this above for our width and heights as well.  You alwaysh ave to include the units (just like in 5th grade math) in your styling, and our units here are pixels.  Now, that whole first part, `5px`, is the border's thickness.  You guessed it: it's 5 pixels thick.  Gosh you're smart.
+Next, we have 3 parts in the value section.  The first part is `5px`.  Firstly, `px` stands for *pixels*.  We used this above for our width and heights as well.  You always have to include the units (just like in 5th grade math) in your styling, and our units here are pixels.  Now, that whole first part, `5px`, is the border's thickness.  You guessed it: it's 5 pixels thick.  Gosh you're smart.
 The next part is the *border style*.  You can plug in several words here, as indicated [on this webpage](http://www.w3schools.com/css/css_border.asp).  We used `solid`, but you can also say `dotted`, `dashed`, or `double`.  There are some other words you can use, but those depend on the color of the border.  
 Color?  What?  OH YEAH.  That's the third part of the border style.  You can stick in any color for that, but in this example, we have `black`.
 
-Let's mix it up a bit with different borders for you to check out.  I'm just going to keep using the same image, you can replace it with whatever.  Stick this in style1.html and check it out, and play with the values yourself!
+Let's mix it up a bit with different borders for you to check out.  I'm just going to keep using the same image, you can replace it with whatever.  Stick this in the `<body>` tags of style1.html and check it out, and play with the values yourself!
 
 	<img src="http://i.imgur.com/wjiVXJe.gif" style="border:5px dotted #ffcc00" />
 	<img src="http://i.imgur.com/wjiVXJe.gif" style="border:10px ridge rgb(77, 145, 99); width: 300px" />
