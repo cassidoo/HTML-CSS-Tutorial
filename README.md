@@ -354,7 +354,7 @@ Play with this one now:
 	<p style="font-family: Arial; font-style: italic">This text is magnificent.</p>
 	
 Browser time.  You've now got some text in the font Arial, and it's italic!  WOOO HOOOOOO.  
-The properties we used here are `font-family` and `font-style`.  For the former, you can choose a lot of fonts, but you have to be careful.  Not every computer has the same fonts.  This is just my personal opinion: don't put something here besides Arial unless you've done some Javascript magic.  And because I'm assuming you don't know Javascript, don't use this unless you're changing this to Arial.  At least not yet. :)
+The properties we used here are `font-family` and `font-style`.  For the former, you can choose a lot of fonts, but you have to be careful.  Not every computer has the same fonts.  This is just my personal opinion: don't put something here besides Arial unless you've done some JavaScript magic.  And because I'm assuming you don't know JavaScript, don't use this unless you're changing this to Arial.  At least not yet. :)
 And for `font-style`, it can be `normal`, `oblique`, and `italic`.  You can play with those now, it's pretty straightforward.
 
 ###The `<head>` Tag
