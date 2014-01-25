@@ -522,7 +522,7 @@ Remember:  You can only use an ID once.  IDs are more helpful when you're contro
 Let's say that you want to separate individual text in your paragraphs or sections on your page.  Let's introduce 2 new tags: `<span>` and `<div>`.
 
 #####The `<span>` tag
-The `<span>` tag is pretty invisible unless you style it.  It's used to group inline-elements (so like a word in a paragraph), and it doesn't actually do anything unless you style or manipulate it with something else.
+The `<span>` tag is pretty invisible unless you style it.  It's used to group *inline-elements* (so like a word in a paragraph), and it doesn't actually do anything unless you style or manipulate it with something else.
 
 So, let's say you have a paragraph and you really want to emphasize some text within a paragraph without a line break or anything.  In comes `<span>`.  For example:
 
@@ -552,6 +552,14 @@ Wait a minute.  Hold up.  `p span`??  WHY THE SPACE?  Calm yourself, I'll tell y
 Make sense?  I hope so.  To sum up:  `<span>` tags separate specific parts of paragraphs or other inline sections of a page.  They do nothing otherwise.  You can nest CSS if you want.  Boom.  Next.
 
 #####The `<div>` tag
+
+Alrighty.  Go enjoy a beach vacation and then come back to this.
+
+Welcome back.
+
+The `<div>` tag is very similar to the `<span>` tag, in that it separates a section of something but doesn't do much else.  However, the difference with `<div>` tags is that they are *block level* elements.
+
+The `<div>` tag might end up being the tag that you use most often.  It is what lets you easily make website layouts (with help from CSS of course).
 
 Psh like I'm going to write this before I eat another cookie.  Break time.
 
