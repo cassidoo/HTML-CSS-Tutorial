@@ -557,9 +557,9 @@ Alrighty.  Go enjoy a beach vacation and then come back to this.
 
 Welcome back.
 
-The `<div>` tag is very similar to the `<span>` tag, in that it separates a section of something but doesn't do much else.  However, the difference with `<div>` tags is that they are *block level* elements.
+The `<div>` tag is very similar to the `<span>` tag, in that it separates a section of something but doesn't do much else.  However, the difference with `<div>` tags is that they are *block level* elements, not just within a line of text.
 
-The `<div>` tag might end up being the tag that you use most often.  It is what lets you easily make website layouts (with help from CSS of course).
+The `<div>` tag might end up being the tag that you use most often.  It is what lets you easily make website layouts (with help from CSS of course), and so, let's play with it!
 
 Psh like I'm going to write this before I eat another cookie.  Break time.
 
