@@ -561,8 +561,50 @@ The `<div>` tag is very similar to the `<span>` tag, in that it separates a sect
 
 The `<div>` tag might end up being the tag that you use most often.  It is what lets you easily make website layouts (with help from CSS of course), and so, let's play with it!
 
-Psh like I'm going to write this before I eat another cookie.  Break time.
+Open up the DIVs folder, and use your editor to open `homepage.html`.
 
+	<!doctype html>
+	<html>
+		<head>
+			<title> My Website </title>
+			<style>
+				
+			</style>
+		</head>
+		<body>
+			<div class="header"></div>
+			<div class="menu"></div>
+			<div class="content"></div>
+			<div class="footer"></div>
+		</body>
+	</html>
+
+Besides the `<div>` tags, everything here should look familiar.  Each of the `<divs>` have a `class`, which means we should style those, right?  Right.
+
+Within those `<style>` tags, let's add some pizzazz.  First, let's throw in what we'll be styling: the `<body>`, and each of the 4 classes:
+
+	body
+	{
+	
+	}
+	.header
+	{
+	
+	}
+	.menu
+	{
+	
+	}
+	.content
+	{
+	
+	}
+	.footer
+	{
+	
+	}
+
+Psh like I'm going to write this before I eat another cookie.  Break time.
 
 ## Wut
 That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
