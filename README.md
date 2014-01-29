@@ -581,8 +581,12 @@ Open up the DIVs folder, and use your editor to open `homepage.html`.
 
 Besides the `<div>` tags, everything here should look familiar.  Each of the `<divs>` have a `class`, which means we should style those, right?  Right.
 
-Within those `<style>` tags, let's add some pizzazz.  First, let's throw in what we'll be styling: the `<body>`, and each of the 4 classes:
+Within those `<style>` tags, let's add some pizzazz.  First, let's throw in what we'll be styling: the `<html>` (it is unusual to style this, but I'll explain why we are later), `<body>`, and each of the 4 classes:
 
+	html
+	{
+		
+	}
 	body
 	{
 	
@@ -604,7 +608,87 @@ Within those `<style>` tags, let's add some pizzazz.  First, let's throw in what
 	
 	}
 
+This should be straightforward for you so far.  The first thing we'll do is create our layout by making each `<div>` a different size.
 
+		html
+		{
+			height: 100%;
+		}
+		body
+		{
+			height: 100%;
+		}
+		.header
+		{
+			width: 100%;
+			height: 60px;
+		}
+		.menu
+		{
+			height: 100%;
+			width: 15%;
+		}
+		.content
+		{
+			height: 200px;
+			width: 85%;
+		}
+		.footer
+		{
+			height: 60px;
+			width: 100%;
+		}
+
+Whoa ho ho, slow down there.  What the heck is with these `%` signs??  Well, what this means is that if, for example, a tag's `width` is `75%`, then it's width on the page will be 75% of it's *containing element.*
+So when you see that the `.menu` class has a `width: 15%;`, it takes up 15% of its containing element's width, which is the `<body>` tag.
+
+Typically, the `height` property defaults to `0%' and the `width` property defaults to `100%`.  This is why we had to style the `height` properties of both `<html>` and `<body>`.
+If we had just made our `.menu` selector have a height of `100%`, we know that 100% of zero is just zero, so we wouldn't have a menu showing up!  When we made the `<body>` tag have `height: 100%`, it also would still be zero, because our `<html>` tag also had a height of 0 without the CSS helping it out.
+Now, if we had just said `height: 50px;` for `.menu`, we wouldn't need the `height` fixes for `<html>` and `<body>`, because it's given a set value, not a value dependent on others.  
+Makes sense?  I hope so.  You're hot.
+
+Okay, so if you open `homepage.html`, you see nothing.  That's okay.  Let's change that by learning a few new CSS properties! 
+
+One property that you will learn to know and love is `background-color`.  It does exactly what you would expect it to: it sets the background color of the element it is styling!  You can fill it in with HEX colors or RGB colors, just like we learned earlier, and the default color is white.
+
+Let's add some backgrounds.
+
+	html
+	{
+		height: 100%;
+	}
+	body
+	{
+		height: 100%;
+	}
+	.header
+	{
+		background-color: #99B5DD;
+		width: 100%;
+		height: 60px;
+	}
+	.menu
+	{
+		background-color: #DE90B1;
+		height: 100%;
+		width: 15%;
+	}
+	.content
+	{
+		height: 200px;
+		width: 85%;
+	}
+	.footer
+	{
+		background-color: #0F215D;
+		height: 60px;
+		width: 100%;
+	}
+
+Save in your editor and now refresh in that browser!  WOW.  COLOR.  Now, our site definitely isn't perfect yet.  Let's throw some MORE new CSS properties at you!
+
+One property that you will probably use fairly often is `float`.  This is one of those properties that you will learn to both love and hate, and here's why: It's kind of magic.
+So, let's say that you
 
 Psh like I'm going to write this before I eat another cookie.  Break time.
 
