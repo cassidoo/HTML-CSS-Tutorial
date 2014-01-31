@@ -687,8 +687,65 @@ Let's add some backgrounds.
 
 Save in your editor and now refresh in that browser!  WOW.  COLOR.  Now, our site definitely isn't perfect yet.  Let's throw some MORE new CSS properties at you!
 
-One property that you will probably use fairly often is `float`.  This is one of those properties that you will learn to both love and hate, and here's why: It's kind of magic.
-So, let's say that you want 
+One property that you will probably use fairly often is `float`.  This is one of those properties that you will learn to both love and hate. It's kind of magical.
+So, let's say that you want to have a picture in a paragraph.  When you see a picture in a news article or even a paper you're writing, the picture is either on the left or the right.  
+It's the same in CSS!  If you wanted to put a picture in a paragraph, you'd make the `<img>` tag inside a `<p>` tag have the properties `float: left;` or `float: right;`.
+So, what does this have to do with `<div>` tags?  Why could you potentially hate it?
+
+I'll tell you.
+
+With CSS float, a given element can be pushed to the left or right, allowing other elements to wrap around it.  An element with `float` affecting it will move as far to the left or right as it can.  Usually this means all the way to the left or right of the containing element.
+
+Pretty simple, right?  Right.  Now, here's the cause for hate: sometimes, `float` just doesn't stop.  It has the potential to mess up your layouts and have things move around other things, and really just give you a headache. 
+How do you stop that?
+
+With the `clear` property!  On the element(s) after any floated elements, make sure that they have `clear: both;` on them (we say `both` because it turns off both `left` and `right` floating).  Let's add `float: left;` to the `.menu` and `.content` sections, and `clear: both;` to the `.footer`:
+
+	html
+	{
+		height: 100%;
+	}
+	body
+	{
+		margin: 0px;
+		height: 100%;
+	}
+	.header
+	{
+		background-color: #99B5DD;
+		width: 100%;
+		height: 60px;
+	}
+	.menu
+	{
+		background-color: #DE90B1;
+		height: 100%;
+		width: 15%;
+		float: left;
+	}
+	.content
+	{
+		height: 200px;
+		width: 85%;
+		float: left;
+	}
+	.footer
+	{
+		background-color: #0F215D;
+		height: 60px;
+		width: 100%;
+		clear: both;
+	}
+
+Now if you refresh your browser, things are starting to look a bit more sexy.  Like you.
+
+Let's add more delight to this!  So let's think, what if you're on your website, but you want to see the footer.  You scroll down.  What if, though, you want to see the header again?  You'd have to scroll back up.
+
+That's exhausting.
+
+Your poor finger.
+
+Let's make it so that your header and footer are always on the top and bottom of your screen, and only your content moves!
 
 Psh like I'm going to write this before I eat another cookie.  Break time.
 
