@@ -707,7 +707,6 @@ With the `clear` property!  On the element(s) after any floated elements, make s
 	}
 	body
 	{
-		margin: 0px;
 		height: 100%;
 	}
 	.header
@@ -746,6 +745,65 @@ That's exhausting.
 Your poor finger.
 
 Let's make it so that your header and footer are always on the top and bottom of your screen, and only your content moves!
+
+Incoming, the `position` property.
+
+The `position` property is pretty much exactly what one would expect a positioning property to do:  It positions things.
+
+It can have several states, but we'll focus on the 3 states you'll probably use most: `absolute`, `relative`, and `fixed` (the default state is `static`, but you will rarely need to work with this).
+* In `absolute` positioning, the selected element will be placed in an exact location on the page, and moves with the page.  So, in our example, the header could be placed at the top of the page and the footer at the bottom, but when you scroll, they will move with the page and they won't stay where they are supposed to.  Some people like this, some don't.  In our case, we won't use this.
+* In `relative` positioning, the selected element will be placed *relative* (fancy that) to its default position.  I'll show you an example of this later.
+* Now, `fixed` positioning is just like `absolute` positioning, except that once an element is placed in an exact location on the page, it is stuck there.  A similar example is like a watermark on a video.  It stays the same there, no matter what the content is.
+
+How do we actually position things after you use `position`?  You can use `top`, `bottom`, `left`, and `right` to place it.
+So, for example, if you want a header bar to be at the top of the page (but it's okay if it scrolls with the page), you'll have `position: absolute;` and `top: 0px;` because you want it to be 0 pixels from the top.
+If you have an image on your page that's sitting on the left of your document, but it's way too far left, you can do `position: relative;` and `left: 5px` to scoot it 5 pixels to the right (because you're adding space to the left).
+Another more complicated example could be if, say, you want a 50px by 50px image to stay in the bottom right corner of your page as you scroll, you could do `position: fixed;` and `right: 50px;` and `bottom: 50px`.  You'll understand it more as we use it!
+
+So, let's get rid of our `float` on `.content`, and let's position everything using `position` instead (we'll keep `float` on our menu for now, you'll see why):
+
+	html
+	{
+		height: 100%;
+	}
+	body
+	{
+		height: 100%;
+	}
+	.header
+	{
+		background-color: #99B5DD;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 60px;
+	}
+	.menu
+	{
+		background-color: #DE90B1;
+		height: 100%;
+		width: 15%;
+		float: left;
+	}
+	.content
+	{
+		height: 200px;
+		width: 85%;
+		position: absolute;
+		top: 60px;
+		left: 15%;
+	}
+	.footer
+	{
+		background-color: #0F215D;
+		position: fixed;
+		bottom: 0;
+		height: 60px;
+		width: 100%;
+		clear: both;
+	}
+	
+We are starting to look really hot now.
 
 Psh like I'm going to write this before I eat another cookie.  Break time.
 
