@@ -649,6 +649,8 @@ Makes sense?  I hope so.  You're hot.
 
 Okay, so if you open `homepage.html`, you see nothing.  That's okay.  Let's change that by learning a few new CSS properties! 
 
+######Background color
+
 One property that you will learn to know and love is `background-color`.  It does exactly what you would expect it to: it sets the background color of the element it is styling!  You can fill it in with HEX colors or RGB colors, just like we learned earlier, and the default color is white.
 
 Let's add some backgrounds.
@@ -686,6 +688,8 @@ Let's add some backgrounds.
 	}
 
 Save in your editor and now refresh in that browser!  WOW.  COLOR.  Now, our site definitely isn't perfect yet.  Let's throw some MORE new CSS properties at you!
+
+######Floating
 
 One property that you will probably use fairly often is `float`.  This is one of those properties that you will learn to both love and hate. It's kind of magical.
 So, let's say that you want to have a picture in a paragraph.  When you see a picture in a news article or even a paper you're writing, the picture is either on the left or the right.  
@@ -748,6 +752,8 @@ Let's make it so that your header and footer are always on the top and bottom of
 
 Incoming, the `position` property.
 
+######Positioning
+
 The `position` property is pretty much exactly what one would expect a positioning property to do:  It positions things.
 
 It can have several states, but we'll focus on the 3 states you'll probably use most: `absolute`, `relative`, and `fixed` (the default state is `static`, but you will rarely need to work with this).
@@ -807,6 +813,8 @@ So, let's get rid of our `float` on `.menu` and `.content`, and the `clear` on t
 We are starting to look really hot now.  If you refresh your page in the browser though, you'll notice that there's a little space to the left of our header and footer.  Why the heck is that happening?
 
 I'll tell you.
+
+######Margins and padding
 
 Psh like I'm going to write this before I eat another cookie.  Break time.
 
