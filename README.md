@@ -610,34 +610,34 @@ Within those `<style>` tags, let's add some pizzazz.  First, let's throw in what
 
 This should be straightforward for you so far.  The first thing we'll do is create our layout by making each `<div>` a different size.
 
-		html
-		{
-			height: 100%;
-		}
-		body
-		{
-			height: 100%;
-		}
-		.header
-		{
-			width: 100%;
-			height: 60px;
-		}
-		.menu
-		{
-			height: 100%;
-			width: 15%;
-		}
-		.content
-		{
-			height: 200px;
-			width: 85%;
-		}
-		.footer
-		{
-			height: 60px;
-			width: 100%;
-		}
+	html
+	{
+		height: 100%;
+	}
+	body
+	{
+		height: 100%;
+	}
+	.header
+	{
+		width: 100%;
+		height: 60px;
+	}
+	.menu
+	{
+		height: 100%;
+		width: 15%;
+	}
+	.content
+	{
+		height: 200px;
+		width: 85%;
+	}
+	.footer
+	{
+		height: 60px;
+		width: 100%;
+	}
 
 Whoa ho ho, slow down there.  What the heck is with these `%` signs??  Well, what this means is that if, for example, a tag's `width` is `75%`, then it's width on the page will be 75% of it's *containing element.*
 So when you see that the `.menu` class has a `width: 15%;`, it takes up 15% of its containing element's width, which is the `<body>` tag.
@@ -760,7 +760,7 @@ So, for example, if you want a header bar to be at the top of the page (but it's
 If you have an image on your page that's sitting on the left of your document, but it's way too far left, you can do `position: relative;` and `left: 5px` to scoot it 5 pixels to the right (because you're adding space to the left).
 Another more complicated example could be if, say, you want a 50px by 50px image to stay in the bottom right corner of your page as you scroll, you could do `position: fixed;` and `right: 50px;` and `bottom: 50px`.  You'll understand it more as we use it!
 
-So, let's get rid of our `float` on `.content`, and let's position everything using `position` instead (we'll keep `float` on our menu for now, you'll see why):
+So, let's get rid of our `float` on `.menu` and `.content`, and the `clear` on the footer.  Let's position everything using `position` instead, like so:
 
 	html
 	{
@@ -774,7 +774,7 @@ So, let's get rid of our `float` on `.content`, and let's position everything us
 	{
 		background-color: #99B5DD;
 		position: fixed;
-		top: 0;
+		top: 0px;
 		width: 100%;
 		height: 60px;
 	}
@@ -783,7 +783,9 @@ So, let's get rid of our `float` on `.content`, and let's position everything us
 		background-color: #DE90B1;
 		height: 100%;
 		width: 15%;
-		float: left;
+		position: fixed;
+		left: 0px;
+		top: 60px;
 	}
 	.content
 	{
@@ -797,13 +799,14 @@ So, let's get rid of our `float` on `.content`, and let's position everything us
 	{
 		background-color: #0F215D;
 		position: fixed;
-		bottom: 0;
+		bottom: 0px;
 		height: 60px;
 		width: 100%;
-		clear: both;
 	}
 	
-We are starting to look really hot now.
+We are starting to look really hot now.  If you refresh your page in the browser though, you'll notice that there's a little space to the left of our header and footer.  Why the heck is that happening?
+
+I'll tell you.
 
 Psh like I'm going to write this before I eat another cookie.  Break time.
 
