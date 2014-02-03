@@ -631,7 +631,6 @@ This should be straightforward for you so far.  The first thing we'll do is crea
 	.content
 	{
 		height: 200px;
-		width: 85%;
 	}
 	.footer
 	{
@@ -678,7 +677,6 @@ Let's add some backgrounds.
 	.content
 	{
 		height: 200px;
-		width: 85%;
 	}
 	.footer
 	{
@@ -729,7 +727,6 @@ With the `clear` property!  On the element(s) after any floated elements, make s
 	.content
 	{
 		height: 200px;
-		width: 85%;
 		float: left;
 	}
 	.footer
@@ -796,7 +793,6 @@ So, let's get rid of our `float` on `.menu` and `.content`, and the `clear` on t
 	.content
 	{
 		height: 200px;
-		width: 85%;
 		position: absolute;
 		top: 60px;
 		left: 15%;
@@ -818,7 +814,71 @@ I'll tell you.
 
 ![Alt](cpbm.png)
 
+I made the diagram above to show you what the heck you'll be working with.
 
+First, let's look at the CSS property `margin`.  Like you can see above, `margin` is the space *outside* the content's border.  Think of it as the 1 inch margins when you write a paper, or the margins of the pages of a book.
+
+The HTML `<body>` tag actually has a natural margin, which is why our header and footer have the space on their sides.  So, let's add `margin: 0px;` to our `<body>` (that's all we'll change right now though):
+
+	body
+	{
+		height: 100%;
+		margin: 0px;
+	}
+
+Now, let's talk about `padding`.  Padding is the space *inside* the content's border.  Now, if you look at our `.content` currently, it is uncomfortably close to our `.menu`.  These things are not meant to be touching.  I would insert a joke here but you can figure out what the punchline would be.
+
+Anyway.
+
+Let's add some padding into our `.content` and `.header` so that our text has some breathing room.  Our CSS should look like this now:
+
+	html
+	{
+		height: 100%;
+	}
+	body
+	{
+		height: 100%;
+		margin: 0px;
+	}
+	.header
+	{
+		background-color: #99B5DD;
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		height: 60px;
+		padding: 10px;
+	}
+	.menu
+	{
+		background-color: #DE90B1;
+		height: 100%;
+		width: 15%;
+		position: fixed;
+		left: 0px;
+		top: 60px;
+		padding: 10px;
+	}
+	.content
+	{
+		height: 200px;
+		position: absolute;
+		top: 60px;
+		left: 15%;
+	}
+	.footer
+	{
+		background-color: #0F215D;
+		position: fixed;
+		bottom: 0px;
+		height: 60px;
+		width: 100%;
+	}
+	
+Oh darn!  Did you see how our header expanded?  If you did this right, our header is now starting to overlap the menu and content.  Crap.
+
+There is a way to fix this.
 
 Psh like I'm going to write this before I eat another cookie.  Break time.
 
