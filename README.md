@@ -880,6 +880,70 @@ Oh darn!  Did you see how our header expanded?  If you did this right, our heade
 
 There is a way to fix this.
 
+So, instead of adding space to margins and padding on all four sides, you can add them just to the top, bottom, left, and/or right.  There's a few ways to do this:
+
+* `margin: 5px 10px 15px 0px;`
+ - top margin is 5px
+ - right margin is 10px
+ - bottom margin is 15px
+ - left margin is 0px
+* `margin: 15px 0px 5px;`
+ - top margin is 15px
+ - right and left margins are 0px
+ - bottom margin is 5px
+* `margin: 5px 10px;`
+ - top and bottom margins are 5px
+ - right and left margins are 10px
+* `margin: 15px;`
+ - all four margins are 15px
+ 
+The same goes for `padding`, you can also do `padding: 5px 10px 15px 0px;`, etc. for all of the properties above.  We're going to make some changes to both the `.header` and the `.menu` here:
+
+	html
+	{
+		height: 100%;
+	}
+	body
+	{
+		height: 100%;
+		margin: 0px;
+	}
+	.header
+	{
+		background-color: #99B5DD;
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		height: 60px;
+		padding: 0px 10px;
+	}
+	.menu
+	{
+		background-color: #DE90B1;
+		height: 100%;
+		width: 15%;
+		position: fixed;
+		left: 0px;
+		top: 60px;
+		padding: 10px 0px 0px;
+	}
+	.content
+	{
+		height: 200px;
+		position: absolute;
+		top: 60px;
+		left: 15%;
+		padding: 10px;
+	}
+	.footer
+	{
+		background-color: #0F215D;
+		position: fixed;
+		bottom: 0px;
+		height: 60px;
+		width: 100%;
+	}
+
 Psh like I'm going to write this before I eat another cookie.  Break time.
 
 ## Wut
