@@ -812,7 +812,7 @@ I'll tell you.
 
 ######Margins and Padding
 
-![Alt](cpbm.png)
+![Alt](https://raw2.github.com/cassidoo/HTML-CSS-Tutorial/master/cpbm.jpg)
 
 I made the diagram above to show you what the heck you'll be working with.
 
