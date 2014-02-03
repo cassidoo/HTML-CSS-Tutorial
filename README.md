@@ -944,6 +944,92 @@ The same goes for `padding`, you can also do `padding: 5px 10px 15px 0px;`, etc.
 		width: 100%;
 	}
 
+Now, with all that you've learned so far, you should probably make this a really great, functional website.  I'll teach you just one more thing, and then I'll set you free like a bird or something.
+
+######Z-Index
+
+The property `z-index` isn't one that you'll run into super often, but it's something that will help you in the long run. 
+
+Now, if you think of your screen as a stack of layers, like a stack of paper on the screen.  Layer 1 is the lowest layer, and the higher the number, the higher the layer.
+
+The numbers in `z-index` are the same.  If an element has `z-index: 0;`, then it is a bottom layer.  If you have an element with a `z-index: 5;`, it's going to be on the 5th layer.
+
+When you create a page and you don't add `z-index` to anything, the layers are just in order.  So in our example, the `.header` was created first, so it's on the lowest layer, and the `.footer` was created last so it is on the top layer.
+
+We don't want that.  What if your `.content` had a ton of information and you had to scroll the page?  The content would overlap on top of the header (because we just HAD to make our header `fixed`).
+
+So, let's add some `z-index` magic to our page!  A couple things to note first:
+
+ * `z-index` only works when you have already set the `position` of an element.
+ * You can assign any number you want to `z-index`, as long as it is an integer (no decimals), and as long as the highest number is the highest level, and the lowest number is the lowest level.
+
+Okay, I'm going to add some `z-index` properties to the page, and I'm also going to add some text changes that you have seen before (`text-align`, `font-family`) and one that you haven't seen before (`font-size`... you get one guess to figure out what this does):
+
+	html
+	{
+		height: 100%;
+	}
+	body
+	{
+		font-family: Arial;
+		height: 100%;
+		margin: 0px;
+	}
+	.header
+	{
+		background-color: #99B5DD;
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		height: 60px;
+		padding: 0px 10px;
+		font-size: 50px;
+		z-index: 10;
+	}
+	.menu
+	{
+		background-color: #DE90B1;
+		height: 100%;
+		width: 15%;
+		position: fixed;
+		left: 0px;
+		top: 60px;
+		padding: 10px 0px 0px;
+		text-align: center;
+		z-index: 5;
+	}
+	.content
+	{
+		height: 200px;
+		position: absolute;
+		top: 60px;
+		left: 15%;
+		padding: 10px;
+		z-index: 0;
+	}
+	.footer
+	{
+		background-color: #0F215D;
+		position: fixed;
+		bottom: 0px;
+		height: 60px;
+		width: 100%;
+		z-index: 10;
+	}
+
+And there you have it!  Look at your website in your browser and feel proud of yourself.  Eat some cake.  Do a dance.  
+
+Now you can see how flexible `<div>` tags really are.  You can style them pretty much any different way you want without breaking a sweat.
+
+So, you have this delightful homepage set up now, try adding some content and play with the CSS a bit to make it your own!  Add colors, change sizes, the works.
+When you click on the links to the other pages, About and Contact, you'll notice that they have no style right now (unlike you).  Change that!  Try making your own layout for each of those pages.  If you're really digging what we've made here, that's cool too.  You can copy over the styles to each page.
+
+But hey, that's a LOT of reusing code.  Plus what if someone is trying to read your code, and they don't get what you're doing (because they aren't as smart as you are)?  Is there a better way?
+
+Duh.
+
+###The `<link>` Tag, Comments, and other Developer Joys
+
 Psh like I'm going to write this before I eat another cookie.  Break time.
 
 ## Wut
