@@ -814,7 +814,11 @@ We are starting to look really hot now.  If you refresh your page in the browser
 
 I'll tell you.
 
-######Margins and padding
+######Margins and Padding
+
+![Alt](cpbm.png)
+
+
 
 Psh like I'm going to write this before I eat another cookie.  Break time.
 
