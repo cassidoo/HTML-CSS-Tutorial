@@ -1044,7 +1044,8 @@ Let's take a look at those attributes.  The `rel` attribute is for *relationship
 The `type` attribute will also pretty much always be `text/css`.  If it's ever anything else when you want to use it with CSS, I will be quite surprised.
 And finally, `href`.  You remember this one, I hope!  It's just like our `<a>` tag.  It is the URL of the stylesheet.
 
-Let's check out this `<link>` tag in action.  Open up the Linking folder and open home.html, and paste the `<link>` line above on the line below the `<title>` tags in the `<head>`.  Voila!  That's it.  Refresh your browser and check out the magic.
+Let's check out this `<link>` tag in action.  Open up the Linking folder and open home.html, and paste the `<link>` line above on the line below the `<title>` tags in the `<head>`.  Voila!  That's it.  Refresh your browser and check out the magic.  It should look just like what we made in the previous section!  
+Now, if you open the main.css file in your editor, you'll see that it's all the CSS you recognize and love, but there's no `<style>` tags.  Those tags aren't needed when you are using a CSS file!
 
 Psh like I'm going to write this before I eat another cookie.  Break time.
 

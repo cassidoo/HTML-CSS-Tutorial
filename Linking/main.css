@@ -1,0 +1,51 @@
+	html
+	{
+		height: 100%;
+	}
+	body
+	{
+		font-family: Arial;
+		height: 100%;
+		margin: 0px;
+	}
+	.header
+	{
+		background-color: #99B5DD;
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		height: 60px;
+		padding: 0px 10px;
+		font-size: 50px;
+		z-index: 10;
+	}
+	.menu
+	{
+		background-color: #DE90B1;
+		height: 100%;
+		width: 15%;
+		position: fixed;
+		left: 0px;
+		top: 60px;
+		padding: 10px 0px 0px;
+		text-align: center;
+		z-index: 5;
+	}
+	.content
+	{
+		height: 200px;
+		position: absolute;
+		top: 60px;
+		left: 15%;
+		padding: 10px;
+		z-index: 0;
+	}
+	.footer
+	{
+		background-color: #0F215D;
+		position: fixed;
+		bottom: 0px;
+		height: 60px;
+		width: 100%;
+		z-index: 10;
+	}
