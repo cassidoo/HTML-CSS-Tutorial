@@ -1030,6 +1030,22 @@ Duh.
 
 ###The `<link>` Tag, Comments, and other Developer Joys
 
+Let's just say you want to reuse your styles across your website on every page.  It makes sense.  It'd be kind of annoying to have drastic changes on every page.
+
+That's where the `<link>` tag comes in!  The `<link>` tag is an empty tag (like <br> and <img>), so it has no end tag, and it's used to link to external stylesheets!
+
+What the heck is an external stylesheet?  Well, put simply, it's CSS, in its own file.
+
+You write the `<link>` tag like this:
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+Let's take a look at those attributes.  The `rel` attribute is for *relationship*.  It specifies the relationship between the current document and the linked document, which will almost always be `stylesheet`.  I've never actually seen it in action with anything other than `stylesheet`, but if you really want to know other values you can look it up.
+The `type` attribute will also pretty much always be `text/css`.  If it's ever anything else when you want to use it with CSS, I will be quite surprised.
+And finally, `href`.  You remember this one, I hope!  It's just like our `<a>` tag.  It is the URL of the stylesheet.
+
+Let's check out this `<link>` tag in action.  Open up the Linking folder and open home.html, and paste the `<link>` line above on the line below the `<title>` tags in the `<head>`.  Voila!  That's it.  Refresh your browser and check out the magic.
+
 Psh like I'm going to write this before I eat another cookie.  Break time.
 
 ## Wut
