@@ -1032,6 +1032,8 @@ Duh.
 
 Let's just say you want to reuse your styles across your website on every page.  It makes sense.  It'd be kind of annoying to have drastic changes on every page.
 
+####The `<link>` tag
+
 That's where the `<link>` tag comes in!  The `<link>` tag is an empty tag (like <br> and <img>), so it has no end tag, and it's used to link to external stylesheets!
 
 What the heck is an external stylesheet?  Well, put simply, it's CSS, in its own file.
@@ -1046,6 +1048,40 @@ And finally, `href`.  You remember this one, I hope!  It's just like our `<a>` t
 
 Let's check out this `<link>` tag in action.  Open up the Linking folder and open home.html, and paste the `<link>` line above on the line below the `<title>` tags in the `<head>`.  Voila!  That's it.  Refresh your browser and check out the magic.  It should look just like what we made in the previous section!  
 Now, if you open the main.css file in your editor, you'll see that it's all the CSS you recognize and love, but there's no `<style>` tags.  Those tags aren't needed when you are using a CSS file!
+
+####Commenting
+
+Let's just say that you want to show off your code to someone, but they're not exactly sure what you're doing.  
+
+You can add comments!
+
+*Comments* in your code are blocks of text that will not be read by the computer.  Every computer language has them.
+
+#####HTML Comments
+
+In HTML, a comment looks like this:
+
+	<!-- This is an HTML comment! -->
+
+As you can see, it almost looks like a regular tag, with an opening `<!--` and an ending `-->`.  You can put this pretty much anywhere in your HTML files and it won't affect your work!
+
+Look inside the Project folder, and open index.html.  You'll see a few comments there.  Notice how you can put them all on one line, or in a multi-line block!  As long as you have a beginning `<!--` and end `-->`, you have total freedom with comments.
+
+#####CSS Comments
+
+Don't worry, you can comment your CSS too!
+
+A comment in CSS is similar to HTML in that it has a beginning and end part, but it looks a little different:
+
+	/* This is a comment in CSS! */
+
+Just like in the HTML comments, you have a beginning `/*` and an end `*/`.  If you open up main.css in the Project folder, you can see the comments I wrote in there!  And again, you can have single-line comments, and multi-line ones too.
+
+Comments are great for keeping track of what you're doing, especially if a project you're working on spans over a period of time.  YOu can make notes for yourself to check later, or you could just tell someone who is reading your code that they are attractive.
+
+####Other Developer Joys
+
+There's so many things that could go in this section for such a generic title.
 
 Psh like I'm going to write this before I eat another cookie.  Break time.
 
