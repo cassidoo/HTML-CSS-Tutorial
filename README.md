@@ -1077,11 +1077,40 @@ A comment in CSS is similar to HTML in that it has a beginning and end part, but
 
 Just like in the HTML comments, you have a beginning `/*` and an end `*/`.  If you open up main.css in the Project folder, you can see the comments I wrote in there!  And again, you can have single-line comments, and multi-line ones too.
 
-Comments are great for keeping track of what you're doing, especially if a project you're working on spans over a period of time.  YOu can make notes for yourself to check later, or you could just tell someone who is reading your code that they are attractive.
+Comments are great for keeping track of what you're doing, especially if a project you're working on spans over a period of time.  You can make notes for yourself to check later, or you could just tell someone who is reading your code that they are attractive.
 
 ####Other Developer Joys
 
-There's so many things that could go in this section for such a generic title.
+There's so many things that could go in this section for such a generic title.  So, what am I going to tell you?  Well, I'm going to tell you what I *haven't* taught you so far.
+
+#####Forms
+
+A common thing you'll see on websites are forms, like textboxes, buttons, and checkboxes.
+I didn't teach you these because you can't do things with them unless you know a bit more than beginner knowledge, which isn't the purpose of this tutorial.
+
+If you're really dying to see a button, here you go:
+
+	<button type="button">Click Me!</button>
+	
+And there you have it, a button on your website!  If you actually want to know how to make the button or form do something, you'll need to know some JavaScript.
+Until you do, here's more information on buttons: [W3Schools - HTML Forms](http://www.w3schools.com/tags/tag_form.asp)
+
+#####HTML5 and CSS3
+
+If you've read anything about the internet and developing for it, you've probably heard some key words thrown around, and a couple of those key words are HTML5 and CSS3.
+What are those, actually?  Well, HTML5 is the latest standard for HTML.  The previous HTML version came out in 1999, which is quite a while ago.  Unless you're time traveling right now and you printed this out to read as you go.
+
+Anyway.  HTML5 was designed to deliver rich content without the need for additional plugins (for example, Shockwave Flash, Silverlight, etc.), and can handle everything from animation to graphics, music to movies, and can also be used to build complex web applications. 
+Not to mention the fact that it works on every device, from tablets to phones to your standard computer.
+
+
+
+
+#####How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)
+
+#####Links to actually learn this stuff
+
+##Final Project!
 
 Psh like I'm going to write this before I eat another cookie.  Break time.
 
