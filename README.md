@@ -1103,21 +1103,53 @@ What are those, actually?  Well, HTML5 is the latest standard for HTML.  The pre
 Anyway.  HTML5 was designed to deliver rich content without the need for additional plugins (for example, Shockwave Flash, Silverlight, etc.), and can handle everything from animation to graphics, music to movies, and can also be used to build complex web applications. 
 Not to mention the fact that it works on every device, from tablets to phones to your standard computer.
 
+CSS3 has a bunch of new features too.  From new selectors to fancy text effects to 2D/3D tranformations, there's just so much to learn!
 
+If you want to read more about HTML5 and CSS3, check out some of the links below.  If you feel like you've mastered the materials you learned here, you're probably ready to start diving in further!
 
+ * [W3Schools - HTML5](http://www.w3schools.com/html/html5_intro.asp)
+ * [W3Schools - CSS3](http://www.w3schools.com/css/css3_intro.asp)
+ * [HTML5 Rocks](http://www.html5rocks.com/)
+ * [Dive Into HTML5](http://diveintohtml5.info/)
 
 #####How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)
 
-#####Links to actually learn this stuff
+Honestly I have nothing to put here I just like the joke that HTML stands for that.
+
+I hope your HTML is spin and <span>.  Heh.
 
 ##Final Project!
 
-Psh like I'm going to write this before I eat another cookie.  Break time.
+Alrighty!  So you've looked at the Project folder a bit, but I haven't told you what that folder is for yet.
 
-## Wut
-That's right, I haven't written the whole tutorial yet.  Be patient.  I have to get my ducks in order so I can astound your face.
+Well guess what.
 
+It's a project. [confetti]
 
+With all that you've learned so far, make something!  I want you to make a website about the most attractive person in the room.
+
+You.
+
+Put a photo up of yourself, add a biography, talk about your skills and experiences, make it the online version of you.
+
+Use `<div>` tags and CSS to make a really awesome layout.  Style everything in the text from `<h1>` to `<p>`.  
+
+Include lists `<ul>` and links `<a>`!  Make it sparkly.
+
+I made your homepage for you, and your main CSS document.  But don't let that limit you!  Add as much as you want, and experiment!
+
+The best way to learn is by doing.  Do as much as you can until you think you have everything down pat.
+
+And if you need help you can always come back and visit. :)
+
+## And now, the end is near
+
+Okay!  You've learned pretty much all that I can teach you.  Congratulations, really.  I'm not even going to joke around here.
+You've accomplished something that will help you for years to come!
+
+Show off your website to your friends, and be proud of what you've done!  
+
+And with that, I'm signing off.  Thanks for reading, you beautiful specimen, you.
 
 
 
