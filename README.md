@@ -40,7 +40,7 @@ There's a bunch of others [listed here](http://en.wikipedia.org/wiki/List_of_HTM
 
 ###HTML Tag Structure
 
-Here is a barebones HTML page, about as simple as you can get.  You can open it up in the Structures folder in the file part1.html.  If you were to open the file in your favorite browser (which you can do, go ahead), you'll see a plain webpage with the title "My Website" and the words, "Hello, World!" written on the page.
+Here is a barebones HTML page, about as simple as you can get.  You can open it up in the **1 - Structure** folder in the file part1.html.  If you were to open the file in your favorite browser (which you can do, go ahead), you'll see a plain webpage with the title "My Website" and the words, "Hello, World!" written on the page.
 
 	<!doctype html>
 	<html>
@@ -69,7 +69,7 @@ Here's some lists of tags if you really care to see all of them at this point:
 So, if you look at our example, you can also put tags inside other tags (like we did with the `<title>` tags inside the `<head>` tags).  This is called *nesting* elements.
 In this case, we would say that the `<head>` *contains* the `<title>`.  Sometimes when you have a lot of nested tags, it's hard to keep track, so you have to format your code with spacing, as shown.  Typically, inner tags are spaced more than their outer tags (just as `<title>` is indented further than `<head>`).
 
-Let's take a look again at part1.html in the Structure folder.  You'll notice that the first line has `<!doctype html>`.  Every HTML document and website has to have this special tag, as it tells the browser what language we're using.  This is one of those special tags I mentioned that doesn't need a closing tag.
+Let's take a look again at part1.html in the **1 - Structure** folder.  You'll notice that the first line has `<!doctype html>`.  Every HTML document and website has to have this special tag, as it tells the browser what language we're using.  This is one of those special tags I mentioned that doesn't need a closing tag.
 
 On the second line, you can see a `<html>` tag.  Everything in the website is contained by this tag, and the last line of your entire document will always be `</html>`.
 
@@ -81,7 +81,7 @@ On the other side of the planet, we have `<body></body>`.  Everything visible to
 
 Let's get juicy.  We're going to talk about some new tags for structuring your text.  Because you're not going to want just one style of text throughout your whole website, right?
 
-Check out part2.html in the Structure folder.  The tags that we'll be talking about here are `<h1>`, `<p>`, `<ul>`, and `<li>`.  Open the file in the browser to try and understand what the heck is going on. 
+Check out part2.html in the **1 - Structure** folder.  The tags that we'll be talking about here are `<h1>`, `<p>`, `<ul>`, and `<li>`.  Open the file in the browser to try and understand what the heck is going on. 
 
 Now, let's talk about it.
 
@@ -97,7 +97,7 @@ Links are what makes the world/Internet go 'round.  Seriously.  So, let's learn 
 
 Links are made with the `<a>` tag, which stands for *anchor*.  
 
-Open up the Tags folder, and add this piece of code right after your heading in page1.html:
+Open up the **2 - Tags** folder, and add this piece of code right after your heading in page1.html:
 
 	<p>This paragraph <a href="http://www.lalalalalalalalalalalalalalalalalala.com/">has a totally awesome link.</a></p>
 	
@@ -160,7 +160,7 @@ So, there's two special tags here, `<hr>` and `<br>`.  They are *empty tags*, me
 Try inserting these in between some of your `<p>` tags to try it out!
 
 ####Tables
-Tables are really cool.  They can also be a bit confusing.  Open up tables.html (in the Tags folder) in a browser to check out the example table I made for you there.
+Tables are really cool.  They can also be a bit confusing.  Open up tables.html (in the **2 - Tags**  folder) in a browser to check out the example table I made for you there.
 
 There's several tags for tables, but the essential ones are `<table>`, `<tr>`, `<th>`, and `<td>`.  Look at tables.html in your editor.
 
@@ -248,7 +248,7 @@ So first, I will show you the wrong way to style your pages.  You might ask why,
 
 ####Colors
 
-Alrighty.  Let's get frisky.  Open up the Styles folder and the file style1.html.  You might notice that this file is pretty bland right now, but that's what we're gonna fix.  Be patient, my grasshopper.
+Alrighty.  Let's get frisky.  Open up the **3 - Styles**  folder and the file style1.html.  You might notice that this file is pretty bland right now, but that's what we're gonna fix.  Be patient, my grasshopper.
 
 Add this line of code in the `<body>` somewhere below the header tags (I made a lot for fun...): `<p style="color: red">This text is hot like my body</p>`
 
@@ -342,7 +342,7 @@ Notice how I added `width` and `height` to a couple of them.  We're getting ince
 
 Besides having header tags and colors, there are other text styles that you can use.  What if you want bold text, or italics?  Different sizes?  Once again, the `style` attribute comes to the rescue.
 
-Add the following to style1.html:
+Add the following to style1.html in **3 - Styles**:
 	
 	<p style="text-align: center; font-weight: bold">This text is magnificent.</p>
 
@@ -361,14 +361,15 @@ And for `font-style`, it can be `normal`, `oblique`, and `italic`.  You can play
 
 Before we start going insane with how good you are at HTML, let's start looking at something that you haven't played with yet.  The `<head>` tag.
 
-I mentioned before that in the `<head>` is information that the user doesn't see, so it's not that big of a deal, right?  WRONG.  It's not all about looks.  That's at least what I try to tell people when they see me.  Anyway...
+I mentioned before that in the `<head>` is information that the user doesn't see, so it's not that big of a deal, right?  WRONG.  It's not all about looks.  That's at least what I try to tell people when they see me.
 
 So.  What else can go in the `<head>`?  We've already got `<title>`, which we've talked about already to help search engines find us.  What if we want to help the search engines out a bit more?  Incoming, the `<meta>` tag.
 
 The `<meta>` tag gives *metadata* about the HTML document. Metadata will not be displayed on the page, but machines can read it.  An example of metadata not on a webpage is in a typical music file.  When you have a music file on your computer and you open it in some media player of some kind, it shows the album title, the artist, the genre, and other information about the song.  This information is metadata.  The user can't see it directly in the music file, but your music players can read it and will tell you what it is.
 So, on a website, this metadata is used by search engines, your browser, and other web services to make your website easy to find, read, and display.
 
-There are 4 important uses for the `<meta>` tag.  There are plenty of other uses, but let's be honest, I don't care about them right now, and I don't think you do either.  Open up the Cooking folder, and open cooking.html in your favorite editor.
+There are 4 important uses for the `<meta>` tag.  There are plenty of other uses, but let's be honest, I don't care about them right now, and I don't think you do either.
+Open up the **4 - Head** (heh get it?  Forehead?  I crack myself up.) folder, and open cooking.html in your favorite editor.
 
 - *Defining keywords for search engines.*  Let's say that you have a website that's about cooking, hence our filename.  You want people searching for your website to be able to find it.  So, you can add the following right before the `<title>` tag:
 
@@ -396,7 +397,9 @@ And there you have it, a self-refreshing webpage.  You're so good at this.
 
 ###Putting it all together so far
 
-Okay, you have a pretty solid understanding of stuff so far.  I want you to take cooking.html, and make it SPARKLE.  Resize the images so the page is more uniform.  Add borders to them.  Change the font styles and weights.  Change the colors.  Add some keywords in the metadata and change the title of the page.  Using the information I've given you so far, you can make a pretty good looking site!
+Okay, you have a pretty solid understanding of stuff so far.  I want you to take cooking.html, and make it shine.
+Resize the images so the page is more uniform.  Add borders to them.  Change the font styles and weights.  Change the colors.  Add some keywords in the metadata and change the title of the page.
+Using the information I've given you so far, you can make a pretty good looking site!
 
 ##CSS is magical, and now you're gonna learn it.
 
@@ -404,7 +407,7 @@ So far, we've been making things pretty the wrong way.  So, we're going to learn
 
 Right now, I'm going to show you how to write CSS just straight in your HTML documents.  That's still kind of wrong, but it'll give you the basics.  After that, we'll move into the big leagues and have separate files for everything.  Pumped.  
 
-Open up your Styles folder again and open style2.html in your favorite editor.  This site is pretty barebones.  Let's take out the barebones part and just make it pretty.
+Open up your **3 - Styles** folder again and open style2.html in your favorite editor.  This site is pretty barebones.  Let's take out the barebones part and just make it pretty.
 
 We're going to be working in the `<head>` tag again.  Underneath the `<title>` tag, stick in the following:
 
@@ -422,7 +425,7 @@ We're going to be working in the `<head>` tag again.  Underneath the `<title>` t
 		{ }
 	</style>
 	
-Congratulations.  You have some empty CSS.  Now, what the heck is CSS anyway?  Well, CSS stands for *Cascading Style Sheets*.  Gee whiz, that word *style* is everywhere.  And it's true.  The `style` attribute is for styling *inline* HTML (just that line of code), the `<style>` tag is for holding CSS, and CSS *defines* the styles!  Let that sink in.  Nice.
+Congratulations.  You have some empty CSS.  Now, what the heck is CSS anyway?  Well, CSS stands for *Cascading Style Sheets*.  Gee whiz, that word *style* is everywhere.  And it's true.  The `style` attribute is for styling *inline* HTML (just that line of code), the `<style>` tag is for holding CSS, and CSS *defines* the styles!  Let that sink in.  Nice.  Stylish.  Just like you.
 
 Now, you'll notice some familiar keywords in there, in particular, `body`, `h1`, `p`, and `ol`.  That's right, they're the tags we know and love!  But, in CSS, these are called *selectors*.  The selector tells us what tag you're about to style.  So, whatever code you put in between the curly braces `{}` after the `body` selector will affect everything in the `<body>` tags.  Whatever you put in the braces after the `p` selector will affect what's in the `<p>` tags.
 Whatever code you have in those curly braces will only affect that tag, so if you try editing the font colors for the `h1` selector, it won't affect whatever is in the `p` selector's tags.  Each portion of code `selector { code }` in CSS is called a *declaration*.  Make sense?  Good.  If not, keep reading and hopefully it will become more clear as we go on.
@@ -470,7 +473,10 @@ So, you have some of the CSS basics down already.  You're so smart.  It's really
 
 ####Classes
 
-Let's say that we have 8 `<p>` tags on our HTML page (hint: open style3.html in the Styles folder).  If we want to style each of these tags differently, we can use *classes*.  A class is actually an HTML attribute that you can name whatever you want.  Check out style3.html to see the classes I added to the `<p>` tags on the page.  When you add a class, the user doesn't see it.  But, you can style specific classes to do what you want, instead of having all `<p>` tags be the same.
+Let's say that we have 8 `<p>` tags on our HTML page (hint: open style3.html in the **3 - Styles** folder).  
+If we want to style each of these tags differently, we can use *classes*.  A class is actually an HTML attribute that you can name whatever you want.  
+Check out style3.html to see the classes I added to the `<p>` tags on the page.  When you add a class, the user doesn't see it.  
+But, you can style specific classes to do what you want, instead of having all `<p>` tags be the same.
 
 How about we style one of the classes specifically?  It's simple.  Just take the class name you made up (I'll use the `poemtitle` class for my example) and add a period `.` in front of it to select it in CSS, like so:
 
@@ -479,7 +485,9 @@ How about we style one of the classes specifically?  It's simple.  Just take the
 	
 	}
 
-And there you have it!  Even though you might have different styles for your paragraphs, you can style the ones of class `poemtitle` individually.  For this example, let's make all paragraphs with the font family Arial, the `poemtitle`s font weight `bolder`, the `author`s the color `#555555`, and the `poem`s in `italic`.  Try doing it on your own if you can (just put your code in the given `<style>` tags), but you're welcome to cheat:
+And there you have it!  Even though you might have different styles for your paragraphs, you can style the ones of class `poemtitle` individually.  
+For this example, let's make all paragraphs with the font family Arial, the `poemtitle`s font weight `bolder`, the `author`s the color `#555555`, and the `poem`s in `italic`.  
+Try doing it on your own if you can (just put your code in the given `<style>` tags), but you're welcome to cheat:
 
 	p
 	{
@@ -515,7 +523,7 @@ When you want to style your IDs, you put a hashtag `#` before it in your CSS, li
 	
 	}
 	
-Remember:  You can only use an ID once.  IDs are more helpful when you're controlling the element with JavaScript, not styling, but we'll talk about that later.
+Remember:  You can only use an ID once.  IDs are more helpful when you're controlling the element with JavaScript, not styling, but that's something for another day.
 
 ####Other Segregation
 
@@ -531,7 +539,7 @@ So, let's say you have a paragraph and you really want to emphasize some text wi
 	
 In the above quote, you might want to style the `<span>` tags differently than the rest of the paragraph.  Maybe you want those words bold, or italics, or in red.  Now you can.
 
-Add some `<span>` tags around your favorite lines of the poems in style3.html.  Then, put the following CSS in your `<style>` tags:
+Add some `<span>` tags around your favorite lines of the poems in style3.html of the **3 - Styles** folder.  Then, put the following CSS in your `<style>` tags:
 	
 	p span
 	{
@@ -549,7 +557,7 @@ Wait a minute.  Hold up.  `p span`??  WHY THE SPACE?  Calm yourself, I'll tell y
 		color: #999999;
 	}
 
-Make sense?  I hope so.  To sum up:  `<span>` tags separate specific parts of paragraphs or other inline sections of a page.  They do nothing otherwise.  You can nest CSS if you want.  Boom.  Next.
+Make sense?  I hope so.  To sum up: `<span>` tags separate specific parts of paragraphs or other inline sections of a page.  They do nothing otherwise.  You can nest CSS if you want.  Boom.  Next.
 
 #####The `<div>` tag
 
@@ -561,7 +569,7 @@ The `<div>` tag is very similar to the `<span>` tag, in that it separates a sect
 
 The `<div>` tag might end up being the tag that you use most often.  It is what lets you easily make website layouts (with help from CSS of course), and so, let's play with it!
 
-Open up the DIVs folder, and use your editor to open `homepage.html`.
+Open up the **5 - Layout** folder, and use your editor to open `homepage.html`.
 
 	<!doctype html>
 	<html>
@@ -581,7 +589,8 @@ Open up the DIVs folder, and use your editor to open `homepage.html`.
 
 Besides the `<div>` tags, everything here should look familiar.  Each of the `<divs>` have a `class`, which means we should style those, right?  Right.
 
-Within those `<style>` tags, let's add some pizzazz.  First, let's throw in what we'll be styling: the `<html>` (it is unusual to style this, but I'll explain why we are later), `<body>`, and each of the 4 classes:
+Within those `<style>` tags, let's add some pizzazz.  
+First, let's throw in what we'll be styling: the `<html>` (it is unusual to style this, but I'll explain why we are later), `<body>`, and each of the 4 classes:
 
 	html
 	{
@@ -641,16 +650,20 @@ This should be straightforward for you so far.  The first thing we'll do is crea
 Whoa ho ho, slow down there.  What the heck is with these `%` signs??  Well, what this means is that if, for example, a tag's `width` is `75%`, then it's width on the page will be 75% of it's *containing element.*
 So when you see that the `.menu` class has a `width: 15%;`, it takes up 15% of its containing element's width, which is the `<body>` tag.
 
-Typically, the `height` property defaults to `0%` and the `width` property defaults to `100%`.  This is why we had to style the `height` properties of both `<html>` and `<body>`.
-If we had just made our `.menu` selector have a height of `100%`, we know that 100% of zero is just zero, so we wouldn't have a menu showing up!  When we made the `<body>` tag have `height: 100%`, it also would still be zero, because our `<html>` tag also had a height of 0 without the CSS helping it out.
+Typically, the `height` property defaults to `0%` and the `width` property defaults to `100%`.  
+This is why we had to style the `height` properties of both `<html>` and `<body>`.
+If we had just made our `.menu` selector have a height of `100%`, we know that 100% of zero is just zero, so we wouldn't have a menu showing up!  
+When we made the `<body>` tag have `height: 100%`, it also would still be zero, because our `<html>` tag also had a height of 0 without the CSS helping it out.
 Now, if we had just said `height: 50px;` for `.menu`, we wouldn't need the `height` fixes for `<html>` and `<body>`, because it's given a set value, not a value dependent on others.  
 Makes sense?  I hope so.  You're hot.
 
-Okay, so if you open `homepage.html`, you see nothing.  That's okay.  Let's change that by learning a few new CSS properties! 
+Okay, so if you open `homepage.html` in the browser, you see nothing.  That's okay.  Let's change that by learning a few new CSS properties! 
 
 ######Background color
 
-One property that you will learn to know and love is `background-color`.  It does exactly what you would expect it to: it sets the background color of the element it is styling!  You can fill it in with HEX colors or RGB colors, just like we learned earlier, and the default color is white.
+One property that you will learn to know and love is `background-color`.  
+It does exactly what you would expect it to: it sets the background color of the element it is styling!  
+You can fill it in with HEX colors or RGB colors, just like we learned earlier, and the default color is white.
 
 Let's add some backgrounds.
 
@@ -685,23 +698,29 @@ Let's add some backgrounds.
 		width: 100%;
 	}
 
-Save in your editor and now refresh in that browser!  WOW.  COLOR.  Now, our site definitely isn't perfect yet.  Let's throw some MORE new CSS properties at you!
+Save in your editor and now refresh in that browser!  WOW.  COLOR.  Now, our site definitely isn't perfect yet.  
+Let's throw some MORE new CSS properties at you!
 
 ######Floating
 
-One property that you will probably use fairly often is `float`.  This is one of those properties that you will learn to both love and hate. It's kind of magical.
+One property that you will probably use fairly often is `float`.  This is one of those properties that you will learn to both love and hate. 
+It's kind of magical.
 So, let's say that you want to have a picture in a paragraph.  When you see a picture in a news article or even a paper you're writing, the picture is either on the left or the right.  
 It's the same in CSS!  If you wanted to put a picture in a paragraph, you'd make the `<img>` tag inside a `<p>` tag have the properties `float: left;` or `float: right;`.
 So, what does this have to do with `<div>` tags?  Why could you potentially hate it?
 
 I'll tell you.
 
-With CSS float, a given element can be pushed to the left or right, allowing other elements to wrap around it.  An element with `float` affecting it will move as far to the left or right as it can.  Usually this means all the way to the left or right of the containing element.
+With CSS float, a given element can be pushed to the left or right, allowing other elements to wrap around it.  
+An element with `float` affecting it will move as far to the left or right as it can.  
+Usually this means all the way to the left or right of the containing element.
 
-Pretty simple, right?  Right.  Now, here's the cause for hate: sometimes, `float` just doesn't stop.  It has the potential to mess up your layouts and have things move around other things, and really just give you a headache. 
+Pretty simple, right?  Right.  Now, here's the cause for hate: sometimes, `float` just doesn't stop.  
+It has the potential to mess up your layouts and have things move around other things, and really just give you a headache. 
 How do you stop that?
 
-With the `clear` property!  On the element(s) after any floated elements, make sure that they have `clear: both;` on them (we say `both` because it turns off both `left` and `right` floating).  Let's add `float: left;` to the `.menu` and `.content` sections, and `clear: both;` to the `.footer`:
+With the `clear` property!  On the element(s) after any floated elements, make sure that they have `clear: both;` on them (we say `both` because it turns off both `left` and `right` floating).  
+Let's add `float: left;` to the `.menu` and `.content` sections, and `clear: both;` to the `.footer`:
 
 	html
 	{
@@ -739,7 +758,8 @@ With the `clear` property!  On the element(s) after any floated elements, make s
 
 Now if you refresh your browser, things are starting to look a bit more sexy.  Like you.
 
-Let's add more delight to this!  So let's think, what if you're on your website, but you want to see the footer.  You scroll down.  What if, though, you want to see the header again?  You'd have to scroll back up.
+Let's add more delight to this!  So let's think, what if you're on your website, but you want to see the footer.  
+You scroll down.  What if, though, you want to see the header again?  You'd have to scroll back up.
 
 That's exhausting.
 
@@ -806,7 +826,9 @@ So, let's get rid of our `float` on `.menu` and `.content`, and the `clear` on t
 		width: 100%;
 	}
 	
-We are starting to look really hot now.  If you refresh your page in the browser though, you'll notice that there's a little space to the left of our header and footer.  Why the heck is that happening?
+We are starting to look really hot now.  
+If you refresh your page in the browser though, you'll notice that there's a little space to the left of our header and footer.  
+Why the heck is that happening?
 
 I'll tell you.
 
@@ -816,9 +838,11 @@ I'll tell you.
 
 I made the diagram above to show you what the heck you'll be working with.
 
-First, let's look at the CSS property `margin`.  Like you can see above, `margin` is the space *outside* the content's border.  Think of it as the 1 inch margins when you write a paper, or the margins of the pages of a book.
+First, let's look at the CSS property `margin`.  Like you can see above, `margin` is the space *outside* the content's border.  
+Think of it as the 1 inch margins when you write a paper, or the margins of the pages of a book.
 
-The HTML `<body>` tag actually has a natural margin, which is why our header and footer have the space on their sides.  So, let's add `margin: 0px;` to our `<body>` (that's all we'll change right now though):
+The HTML `<body>` tag actually has a natural margin, which is why our header and footer have the space on their sides.  S
+o, let's add `margin: 0px;` to our `<body>` (that's all we'll change right now though):
 
 	body
 	{
@@ -944,19 +968,24 @@ The same goes for `padding`, you can also do `padding: 5px 10px 15px 0px;`, etc.
 		width: 100%;
 	}
 
-Now, with all that you've learned so far, you should probably make this a really great, functional website.  I'll teach you just one more thing, and then I'll set you free like a bird or something.
+Now, with all that you've learned so far, you should probably make this a really great, functional website.  
+I'll teach you just one more thing, and then I'll set you free like a bird or something.
 
 ######Z-Index
 
 The property `z-index` isn't one that you'll run into super often, but it's something that will help you in the long run. 
 
-Now, if you think of your screen as a stack of layers, like a stack of paper on the screen.  Layer 1 is the lowest layer, and the higher the number, the higher the layer.
+Now, if you think of your screen as a stack of layers, like a stack of paper on the screen.  
+Layer 1 is the lowest layer, and the higher the number, the higher the layer.
 
-The numbers in `z-index` are the same.  If an element has `z-index: 0;`, then it is a bottom layer.  If you have an element with a `z-index: 5;`, it's going to be on the 5th layer.
+The numbers in `z-index` are the same.  If an element has `z-index: 0;`, then it is a bottom layer.  
+If you have an element with a `z-index: 5;`, it's going to be on the 5th layer.
 
-When you create a page and you don't add `z-index` to anything, the layers are just in order.  So in our example, the `.header` was created first, so it's on the lowest layer, and the `.footer` was created last so it is on the top layer.
+When you create a page and you don't add `z-index` to anything, the layers are just in order.  
+So in our example, the `.header` was created first, so it's on the lowest layer, and the `.footer` was created last so it is on the top layer.
 
-We don't want that.  What if your `.content` had a ton of information and you had to scroll the page?  The content would overlap on top of the header (because we just HAD to make our header `fixed`).
+We don't want that.  What if your `.content` had a ton of information and you had to scroll the page?  
+The content would overlap on top of the header (because we just HAD to make our header `fixed`).
 
 So, let's add some `z-index` magic to our page!  A couple things to note first:
 
@@ -1030,7 +1059,8 @@ Duh.
 
 ###The `<link>` Tag, Comments, and other Developer Joys
 
-Let's just say you want to reuse your styles across your website on every page.  It makes sense.  It'd be kind of annoying to have drastic changes on every page.
+Let's just say you want to reuse your styles across your website on every page.  It makes sense.  
+It'd be kind of annoying to have drastic changes on every page.
 
 ####The `<link>` tag
 
@@ -1042,11 +1072,13 @@ You write the `<link>` tag like this:
 
 	<link rel="stylesheet" type="text/css" href="main.css">
 
-Let's take a look at those attributes.  The `rel` attribute is for *relationship*.  It specifies the relationship between the current document and the linked document, which will almost always be `stylesheet`.  I've never actually seen it in action with anything other than `stylesheet`, but if you really want to know other values you can look it up.
+Let's take a look at those attributes.  The `rel` attribute is for *relationship*.  
+It specifies the relationship between the current document and the linked document, which will almost always be `stylesheet`.  
+I've never actually seen it in action with anything other than `stylesheet`, but if you really want to know other values you can look it up.
 The `type` attribute will also pretty much always be `text/css`.  If it's ever anything else when you want to use it with CSS, I will be quite surprised.
 And finally, `href`.  You remember this one, I hope!  It's just like our `<a>` tag.  It is the URL of the stylesheet.
 
-Let's check out this `<link>` tag in action.  Open up the Linking folder and open home.html, and paste the `<link>` line above on the line below the `<title>` tags in the `<head>`.  Voila!  That's it.  Refresh your browser and check out the magic.  It should look just like what we made in the previous section!  
+Let's check out this `<link>` tag in action.  Open up the **6 - Linking** folder and open home.html, and paste the `<link>` line above on the line below the `<title>` tags in the `<head>`.  Voila!  That's it.  Refresh your browser and check out the magic.  It should look just like what we made in the previous section!  
 Now, if you open the main.css file in your editor, you'll see that it's all the CSS you recognize and love, but there's no `<style>` tags.  Those tags aren't needed when you are using a CSS file!
 
 ####Commenting
@@ -1065,7 +1097,7 @@ In HTML, a comment looks like this:
 
 As you can see, it almost looks like a regular tag, with an opening `<!--` and an ending `-->`.  You can put this pretty much anywhere in your HTML files and it won't affect your work!
 
-Look inside the Project folder, and open index.html.  You'll see a few comments there.  Notice how you can put them all on one line, or in a multi-line block!  As long as you have a beginning `<!--` and end `-->`, you have total freedom with comments.
+Look inside the **7 - Project** folder, and open index.html.  You'll see a few comments there.  Notice how you can put them all on one line, or in a multi-line block!  As long as you have a beginning `<!--` and end `-->`, you have total freedom with comments.
 
 #####CSS Comments
 
@@ -1075,13 +1107,17 @@ A comment in CSS is similar to HTML in that it has a beginning and end part, but
 
 	/* This is a comment in CSS! */
 
-Just like in the HTML comments, you have a beginning `/*` and an end `*/`.  If you open up main.css in the Project folder, you can see the comments I wrote in there!  And again, you can have single-line comments, and multi-line ones too.
+Just like in the HTML comments, you have a beginning `/*` and an end `*/`.  
+If you open up main.css in the **7 - Project** folder, you can see the comments I wrote in there!  
+And again, you can have single-line comments, and multi-line ones too.
 
-Comments are great for keeping track of what you're doing, especially if a project you're working on spans over a period of time.  You can make notes for yourself to check later, or you could just tell someone who is reading your code that they are attractive.
+Comments are great for keeping track of what you're doing, especially if a project you're working on spans over a period of time.  
+You can make notes for yourself to check later, or you could just tell someone who is reading your code that they are attractive.
 
 ####Other Developer Joys
 
-There's so many things that could go in this section for such a generic title.  So, what am I going to tell you?  Well, I'm going to tell you what I *haven't* taught you so far.
+There's so many things that could go in this section for such a generic title.  So, what am I going to tell you?  
+Well, I'm going to tell you what I *haven't* taught you so far.
 
 #####Forms
 
@@ -1120,7 +1156,7 @@ I hope your HTML is spin and <span>.  Heh.
 
 ##Final Project!
 
-Alrighty!  So you've looked at the Project folder a bit, but I haven't told you what that folder is for yet.
+Alrighty!  So you've looked at the **7 - Project** folder a bit, but I haven't told you what that folder is for yet.
 
 Well guess what.
 
