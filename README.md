@@ -24,6 +24,47 @@ On a computer.  Here.
 
 Because this stuff is important.  Whether you're a business person formatting your emails, an aspiring web designer wanting to get your feet wet, or just someone who is interested and hasn't tried any sort of coding, scripting, or programming before, **HTML and CSS are an essential part** of your learning curve.
 
+##Table of Contents
+- [HTML](https://github.com/cassidoo/HTML-CSS-Tutorial)
+    - Editors
+    - Tag Structure
+    - Text Structure
+    - Links
+    - Other tags
+        - Images
+        - Line Breaks
+        - Tables
+    - Making Things Gorgeous The Wrong Way
+        - Colors
+        - Width and Height
+        - Borders
+        - Text Styles
+    - The <head> tag
+    - Putting it all together so far
+- [CSS](https://github.com/cassidoo/HTML-CSS-Tutorial)
+    - Classes and IDs and other Segregation
+        - Classes
+        - IDs
+        - Other Segregation
+            - The <span> tag
+            - The <div> tag
+                - Background color
+                - Floating
+                - Positioning
+                - Margins and Padding
+                - Z-Index
+    - The <link> Tag, Comments, and other Developer Joys
+        - The <link> tag
+        - Commenting
+            - HTML Comments
+            - CSS Comments
+        - Other Developer Joys
+            - Forms
+            - HTML5 and CSS3
+            - How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)        
+- [Final Project!](https://github.com/cassidoo/HTML-CSS-Tutorial)
+- [And now, the end is near](https://github.com/cassidoo/HTML-CSS-Tutorial)
+
 ##HTML Time. Let's Go.
 
 ###Editors
@@ -338,7 +379,7 @@ Let's mix it up a bit with different borders for you to check out.  I'm just goi
 			
 Notice how I added `width` and `height` to a couple of them.  We're getting incestuous with our stylings.  Aww yeah.
 
-####Text styles
+####Text Styles
 
 Besides having header tags and colors, there are other text styles that you can use.  What if you want bold text, or italics?  Different sizes?  Once again, the `style` attribute comes to the rescue.
 
@@ -906,20 +947,20 @@ There is a way to fix this.
 
 So, instead of adding space to margins and padding on all four sides, you can add them just to the top, bottom, left, and/or right.  There's a few ways to do this:
 
-* `margin: 5px 10px 15px 0px;`
- - top margin is 5px
- - right margin is 10px
- - bottom margin is 15px
- - left margin is 0px
-* `margin: 15px 0px 5px;`
- - top margin is 15px
- - right and left margins are 0px
- - bottom margin is 5px
-* `margin: 5px 10px;`
- - top and bottom margins are 5px
- - right and left margins are 10px
-* `margin: 15px;`
- - all four margins are 15px
+ - `margin: 5px 10px 15px 0px;`
+     - top margin is 5px
+     - right margin is 10px
+     - bottom margin is 15px
+     - left margin is 0px
+ - `margin: 15px 0px 5px;`
+     - top margin is 15px
+     - right and left margins are 0px
+     - bottom margin is 5px
+ - `margin: 5px 10px;`
+     - top and bottom margins are 5px
+     - right and left margins are 10px
+ - `margin: 15px;`
+     - all four margins are 15px
  
 The same goes for `padding`, you can also do `padding: 5px 10px 15px 0px;`, etc. for all of the properties above.  We're going to make some changes to both the `.header` and the `.menu` here:
 
@@ -989,8 +1030,8 @@ The content would overlap on top of the header (because we just HAD to make our 
 
 So, let's add some `z-index` magic to our page!  A couple things to note first:
 
- * `z-index` only works when you have already set the `position` of an element.
- * You can assign any number you want to `z-index`, as long as it is an integer (no decimals), and as long as the highest number is the highest level, and the lowest number is the lowest level.
+ - `z-index` only works when you have already set the `position` of an element.
+ - You can assign any number you want to `z-index`, as long as it is an integer (no decimals), and as long as the highest number is the highest level, and the lowest number is the lowest level.
 
 Okay, I'm going to add some `z-index` properties to the page, and I'm also going to add some text changes that you have seen before (`text-align`, `font-family`) and one that you haven't seen before (`font-size`... you get one guess to figure out what this does):
 
@@ -1143,10 +1184,10 @@ CSS3 has a bunch of new features too.  From new selectors to fancy text effects 
 
 If you want to read more about HTML5 and CSS3, check out some of the links below.  If you feel like you've mastered the materials you learned here, you're probably ready to start diving in further!
 
- * [W3Schools - HTML5](http://www.w3schools.com/html/html5_intro.asp)
- * [W3Schools - CSS3](http://www.w3schools.com/css/css3_intro.asp)
- * [HTML5 Rocks](http://www.html5rocks.com/)
- * [Dive Into HTML5](http://diveintohtml5.info/)
+ - [W3Schools - HTML5](http://www.w3schools.com/html/html5_intro.asp)
+ - [W3Schools - CSS3](http://www.w3schools.com/css/css3_intro.asp)
+ - [HTML5 Rocks](http://www.html5rocks.com/)
+ - [Dive Into HTML5](http://diveintohtml5.info/)
 
 #####How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)
 
@@ -1166,7 +1207,7 @@ With all that you've learned so far, make something!  I want you to make a websi
 
 You.
 
-Put a photo up of yourself, add a biography, talk about your skills and experiences, make it the online version of you.
+Put a photo up of yourself, add a biography, talk about your skills (be sure to include HTML and CSS among them) and experiences, make it the online version of you.
 
 Use `<div>` tags and CSS to make a really awesome layout.  Style everything in the text from `<h1>` to `<p>`.  
 
@@ -1178,27 +1219,18 @@ The best way to learn is by doing.  Do as much as you can until you think you ha
 
 And if you need help you can always come back and visit. :)
 
-## And now, the end is near
+##And now, the end is near
 
-Okay!  You've learned pretty much all that I can teach you.  Congratulations, really.  I'm not even going to joke around here.
+Actually, now the end is here.
+
+You've learned pretty much all that I can teach you.  Congratulations, really.  I'm not even going to joke around here.
 You've accomplished something that will help you for years to come!
 
 Show off your website to your friends, and be proud of what you've done!  
 
-And with that, I'm signing off.  Thanks for reading, you beautiful specimen, you.
+And with that, I'm signing off.
 
-
-
-
-
-
-
-
-
-
-
-
-
+Thanks for reading, you beautiful specimen, you.
 
 
 
