@@ -25,45 +25,45 @@ On a computer.  Here.
 Because this stuff is important.  Whether you're a business person formatting your emails, an aspiring web designer wanting to get your feet wet, or just someone who is interested and hasn't tried any sort of coding, scripting, or programming before, **HTML and CSS are an essential part** of your learning curve.
 
 ##Table of Contents
- - [HTML](https://github.com/cassidoo/HTML-CSS-Tutorial#html-time-lets-go)
-	- Editors
-	- Tag Structure
-	- Text Structure
-	- Links
-	- Other tags
-		- Images
-		- Line Breaks
-		- Tables
-	- Making Things Gorgeous The Wrong Way
-		- Colors
-		- Width and Height
-		- Borders
-		- Text Styles
-	- The <head> tag
-	- Putting it all together so far
- - [CSS](https://github.com/cassidoo/HTML-CSS-Tutorial#css-is-magical-and-now-youre-gonna-learn-it)
-	- Classes and IDs and other Segregation
-		- Classes
-		- IDs
-		- Other Segregation
-			- The <span> tag
-			- The <div> tag
-				- Background color
-				- Floating
-				- Positioning
-				- Margins and Padding
-				- Z-Index
-	- The <link> Tag, Comments, and other Developer Joys
-		- The <link> tag
-		- Commenting
-			- HTML Comments
-			- CSS Comments
-		- Other Developer Joys
-			- Forms
-			- HTML5 and CSS3
-			- How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)        
- - [Final Project!](https://github.com/cassidoo/HTML-CSS-Tutorial#final-project)
- - And now, the end is near
+ * [HTML](https://github.com/cassidoo/HTML-CSS-Tutorial#html-time-lets-go)
+	* Editors
+	* Tag Structure
+	* Text Structure
+	* Links
+	* Other tags
+		* Images
+		* Line Breaks
+		* Tables
+	* Making Things Gorgeous The Wrong Way
+		* Colors
+		* Width and Height
+		* Borders
+		* Text Styles
+	* The `<head>` tag
+	* Putting it all together so far
+ * [CSS](https://github.com/cassidoo/HTML-CSS-Tutorial#css-is-magical-and-now-youre-gonna-learn-it)
+	* Classes and IDs and other Segregation
+		* Classes
+		* IDs
+		* Other Segregation
+			* The `<span>` tag
+			* The `<div>` tag
+				* Background color
+				* Floating
+				* Positioning
+				* Margins and Padding
+				* Z-Index
+	* The `<link>` Tag, Comments, and other Developer Joys
+		* The `<link>` tag
+		* Commenting
+			* HTML Comments
+			* CSS Comments
+		* Other Developer Joys
+			* Forms
+			* HTML5 and CSS3
+			* How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)        
+ * [Final Project!](https://github.com/cassidoo/HTML-CSS-Tutorial#final-project)
+ * And now, the end is near
 
 ##HTML Time. Let's Go.
 
@@ -71,11 +71,11 @@ Because this stuff is important.  Whether you're a business person formatting yo
 
 So the first thing you'll need is an editor to edit your jazz.  There's tons of options out there.
 
-- Notepad (that's right, the stupid thing that comes on your PC) - This is about as basic as you can get.  It's totally okay if you want to use this, but I recommend one of the editors below just so you can see code highlighting (which will help you out later on).  But, if you want to be a purist, this'll work just fine.
-- [Aptana Studio 3](http://aptana.com/) - This is what I typically use.  It's fairly easy to navigate, you create projects in it and it supports standard web projects, PHP, and Ruby.  If you're a beginner that probably means nothing to you.  Anyway, a decent choice.
-- [Sublime Text 2](http://www.sublimetext.com/2) - This is a pretty popular option, and for good reason.  Very clean interface.  Once you can navigate it (learning curve isn't that big), it's pretty dreamy.  Like your face.
-- [Notepad++](http://notepad-plus-plus.org/) - This is just one step up from Notepad.  But it's pretty dece.  Code highlighting is in it, and nothing else too fancy, which is what I like about it.
-- [IDEcoder](http://icecoder.net/) - this is an in-browser code editor, which lets you code directly within the web browser, online or offline, it means you only need one program (your browser) to develop websites, which is cool
+ * Notepad (that's right, the stupid thing that comes on your PC) - This is about as basic as you can get.  It's totally okay if you want to use this, but I recommend one of the editors below just so you can see code highlighting (which will help you out later on).  But, if you want to be a purist, this'll work just fine.
+ * [Aptana Studio 3](http://aptana.com/) - This is what I typically use.  It's fairly easy to navigate, you create projects in it and it supports standard web projects, PHP, and Ruby.  If you're a beginner that probably means nothing to you.  Anyway, a decent choice.
+ * [Sublime Text 2](http://www.sublimetext.com/2) - This is a pretty popular option, and for good reason.  Very clean interface.  Once you can navigate it (learning curve isn't that big), it's pretty dreamy.  Like your face.
+ * [Notepad++](http://notepad-plus-plus.org/) - This is just one step up from Notepad.  But it's pretty dece.  Code highlighting is in it, and nothing else too fancy, which is what I like about it.
+ * [IDEcoder](http://icecoder.net/) - this is an in-browser code editor, which lets you code directly within the web browser, online or offline, it means you only need one program (your browser) to develop websites, which is cool
 
 There's a bunch of others [listed here](http://en.wikipedia.org/wiki/List_of_HTML_editors), I just listed the ones I've used and liked!
 
@@ -103,9 +103,9 @@ The opening and closing tags together are an *element* (which also includes ever
 
 Tags organize your page and tell the browser what your page consists of.  There's tons of tags out there, some that you may never use.  
 Here's some lists of tags if you really care to see all of them at this point:
-- [HTML Dog Tag List](http://www.htmldog.com/reference/htmltags/)
-- [W3Schools Tag List](http://www.w3schools.com/tags/default.asp)
-- [Quackit HTML Tag List](http://www.quackit.com/html/tags/)
+ * [HTML Dog Tag List](http://www.htmldog.com/reference/htmltags/)
+ * [W3Schools Tag List](http://www.w3schools.com/tags/default.asp)
+ * [Quackit HTML Tag List](http://www.quackit.com/html/tags/)
 
 So, if you look at our example, you can also put tags inside other tags (like we did with the `<title>` tags inside the `<head>` tags).  This is called *nesting* elements.
 In this case, we would say that the `<head>` *contains* the `<title>`.  Sometimes when you have a lot of nested tags, it's hard to keep track, so you have to format your code with spacing, as shown.  Typically, inner tags are spaced more than their outer tags (just as `<title>` is indented further than `<head>`).
@@ -305,10 +305,10 @@ Now HEX colors is very similar.  It consists of the hashtag sign `#`, and then 6
 
 Don't worry, you won't have to come up with RGB and HEX colors yourself.  There's plenty of websites and programs and color pickers out there to help you with that.  Here's a few:
 
-- [Color Picker](http://www.colorpicker.com/)
-- [HTML color codes and names](http://www.computerhope.com/htmcolor.htm)
-- [HTML Color Codes](http://html-color-codes.info/)
-- [HTML Color Picker](http://www.w3schools.com/tags/ref_colorpicker.asp)
+ * [Color Picker](http://www.colorpicker.com/)
+ * [HTML color codes and names](http://www.computerhope.com/htmcolor.htm)
+ * [HTML Color Codes](http://html-color-codes.info/)
+ * [HTML Color Picker](http://www.w3schools.com/tags/ref_colorpicker.asp)
 
 Try adding colors to various tags on the page!  You can make your `<h1>` the color `#005DFC`, your `<h3>` tag `rgb(242,127,56)`, and your `<p>` tag `lightblue`.  Keep playing til you're happy.
 
@@ -412,25 +412,25 @@ So, on a website, this metadata is used by search engines, your browser, and oth
 There are 4 important uses for the `<meta>` tag.  There are plenty of other uses, but let's be honest, I don't care about them right now, and I don't think you do either.
 Open up the **4 - Head** (heh get it?  Forehead?  I crack myself up.) folder, and open cooking.html in your favorite editor.
 
-- *Defining keywords for search engines.*  Let's say that you have a website that's about cooking, hence our filename.  You want people searching for your website to be able to find it.  So, you can add the following right before the `<title>` tag:
+ * *Defining keywords for search engines.*  Let's say that you have a website that's about cooking, hence our filename.  You want people searching for your website to be able to find it.  So, you can add the following right before the `<title>` tag:
 
 `<meta name="keywords" content="cooking, cook, recipe, food, microwave">`
 	
 Simple enough.  Now, when people search using the terms cooking, cook, recipe, food, and microwave, your website is pushed up in the results.  Nice!
 	
-- *Defining a description of your site.*  Again, this one is for the search engines.  Whenever you search for a website, there's a tiny description in the search results.  Go search for anything right now, and you'll see it.  So, you can define what that is with this snippet:
+ * *Defining a description of your site.*  Again, this one is for the search engines.  Whenever you search for a website, there's a tiny description in the search results.  Go search for anything right now, and you'll see it.  So, you can define what that is with this snippet:
 
 `<meta name="description" content="The best cooking website in the entire universe.  You're welcome.">`
 
 Add this right after the keywords line in cooking.html.  Now if people were searching for this, they'd get this description and instantly see that your website is the best cooking website in the universe.
 
-- *Defining the author of a website.*  Let's say that someone's looking for the author of your website, because your writing style is sexy.  Or something.  You can let them know who you are with the following:
+ * *Defining the author of a website.*  Let's say that someone's looking for the author of your website, because your writing style is sexy.  Or something.  You can let them know who you are with the following:
 
 `<meta name="author" content="Sexy McGoodlooking">`
 	
 Add this after your description line, and stick your name in it!  I think I got it as close as possible.
 
-- *Refreshing your document every 30 seconds.* This one is for your browser.  Let's say that you have comments available on your recipes, and you want to have the page refresh so the comments can appear "live".  Just add this:
+ * *Refreshing your document every 30 seconds.* This one is for your browser.  Let's say that you have comments available on your recipes, and you want to have the page refresh so the comments can appear "live".  Just add this:
 
 `<meta http-equiv="refresh" content="30">`
 	
@@ -815,9 +815,9 @@ Incoming, the `position` property.
 The `position` property is pretty much exactly what one would expect a positioning property to do:  It positions things.
 
 It can have several states, but we'll focus on the 3 states you'll probably use most: `absolute`, `relative`, and `fixed` (the default state is `static`, but you will rarely need to work with this).
-* In `absolute` positioning, the selected element will be placed in an exact location on the page, and moves with the page.  So, in our example, the header could be placed at the top of the page and the footer at the bottom, but when you scroll, they will move with the page and they won't stay where they are supposed to.  Some people like this, some don't.  In our case, we won't use this.
-* In `relative` positioning, the selected element will be placed *relative* (fancy that) to its default position.  I'll show you an example of this later.
-* Now, `fixed` positioning is just like `absolute` positioning, except that once an element is placed in an exact location on the page, it is stuck there.  A similar example is like a watermark on a video.  It stays the same there, no matter what the content is.
+ * In `absolute` positioning, the selected element will be placed in an exact location on the page, and moves with the page.  So, in our example, the header could be placed at the top of the page and the footer at the bottom, but when you scroll, they will move with the page and they won't stay where they are supposed to.  Some people like this, some don't.  In our case, we won't use this.
+ * In `relative` positioning, the selected element will be placed *relative* (fancy that) to its default position.  I'll show you an example of this later.
+ * Now, `fixed` positioning is just like `absolute` positioning, except that once an element is placed in an exact location on the page, it is stuck there.  A similar example is like a watermark on a video.  It stays the same there, no matter what the content is.
 
 How do we actually position things after you use `position`?  You can use `top`, `bottom`, `left`, and `right` to place it.
 So, for example, if you want a header bar to be at the top of the page (but it's okay if it scrolls with the page), you'll have `position: absolute;` and `top: 0px;` because you want it to be 0 pixels from the top.
@@ -947,20 +947,20 @@ There is a way to fix this.
 
 So, instead of adding space to margins and padding on all four sides, you can add them just to the top, bottom, left, and/or right.  There's a few ways to do this:
 
- - `margin: 5px 10px 15px 0px;`
-     - top margin is 5px
-     - right margin is 10px
-     - bottom margin is 15px
-     - left margin is 0px
- - `margin: 15px 0px 5px;`
-     - top margin is 15px
-     - right and left margins are 0px
-     - bottom margin is 5px
- - `margin: 5px 10px;`
-     - top and bottom margins are 5px
-     - right and left margins are 10px
- - `margin: 15px;`
-     - all four margins are 15px
+ * `margin: 5px 10px 15px 0px;`
+     * top margin is 5px
+     * right margin is 10px
+     * bottom margin is 15px
+     * left margin is 0px
+ * `margin: 15px 0px 5px;`
+     * top margin is 15px
+     * right and left margins are 0px
+     * bottom margin is 5px
+ * `margin: 5px 10px;`
+     * top and bottom margins are 5px
+     * right and left margins are 10px
+ * `margin: 15px;`
+     * all four margins are 15px
  
 The same goes for `padding`, you can also do `padding: 5px 10px 15px 0px;`, etc. for all of the properties above.  We're going to make some changes to both the `.header` and the `.menu` here:
 
@@ -1030,8 +1030,8 @@ The content would overlap on top of the header (because we just HAD to make our 
 
 So, let's add some `z-index` magic to our page!  A couple things to note first:
 
- - `z-index` only works when you have already set the `position` of an element.
- - You can assign any number you want to `z-index`, as long as it is an integer (no decimals), and as long as the highest number is the highest level, and the lowest number is the lowest level.
+ * `z-index` only works when you have already set the `position` of an element.
+ * You can assign any number you want to `z-index`, as long as it is an integer (no decimals), and as long as the highest number is the highest level, and the lowest number is the lowest level.
 
 Okay, I'm going to add some `z-index` properties to the page, and I'm also going to add some text changes that you have seen before (`text-align`, `font-family`) and one that you haven't seen before (`font-size`... you get one guess to figure out what this does):
 
@@ -1184,10 +1184,10 @@ CSS3 has a bunch of new features too.  From new selectors to fancy text effects 
 
 If you want to read more about HTML5 and CSS3, check out some of the links below.  If you feel like you've mastered the materials you learned here, you're probably ready to start diving in further!
 
- - [W3Schools - HTML5](http://www.w3schools.com/html/html5_intro.asp)
- - [W3Schools - CSS3](http://www.w3schools.com/css/css3_intro.asp)
- - [HTML5 Rocks](http://www.html5rocks.com/)
- - [Dive Into HTML5](http://diveintohtml5.info/)
+ * [W3Schools - HTML5](http://www.w3schools.com/html/html5_intro.asp)
+ * [W3Schools - CSS3](http://www.w3schools.com/css/css3_intro.asp)
+ * [HTML5 Rocks](http://www.html5rocks.com/)
+ * [Dive Into HTML5](http://diveintohtml5.info/)
 
 #####How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)
 
