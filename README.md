@@ -41,6 +41,7 @@ Because this stuff is important.  Whether you're a business person formatting yo
         - Text Styles
     - The <head> tag
     - Putting it all together so far
+
  - [CSS](https://github.com/cassidoo/HTML-CSS-Tutorial#css-is-magical-and-now-youre-gonna-learn-it)
     - Classes and IDs and other Segregation
         - Classes
@@ -61,7 +62,8 @@ Because this stuff is important.  Whether you're a business person formatting yo
         - Other Developer Joys
             - Forms
             - HTML5 and CSS3
-            - How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)        
+            - How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...) 
+       
  - [Final Project!](https://github.com/cassidoo/HTML-CSS-Tutorial#final-project)
  - And now, the end is near
 
