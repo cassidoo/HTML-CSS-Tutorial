@@ -26,43 +26,43 @@ Because this stuff is important.  Whether you're a business person formatting yo
 
 ##Table of Contents
  - [HTML](https://github.com/cassidoo/HTML-CSS-Tutorial#html-time-lets-go)
-    - Editors
-    - Tag Structure
-    - Text Structure
-    - Links
-    - Other tags
-        - Images
-        - Line Breaks
-        - Tables
-    - Making Things Gorgeous The Wrong Way
-        - Colors
-        - Width and Height
-        - Borders
-        - Text Styles
-    - The <head> tag
-    - Putting it all together so far
+	- Editors
+	- Tag Structure
+	- Text Structure
+	- Links
+	- Other tags
+		- Images
+		- Line Breaks
+		- Tables
+	- Making Things Gorgeous The Wrong Way
+		- Colors
+		- Width and Height
+		- Borders
+		- Text Styles
+	- The <head> tag
+	- Putting it all together so far
  - [CSS](https://github.com/cassidoo/HTML-CSS-Tutorial#css-is-magical-and-now-youre-gonna-learn-it)
-    - Classes and IDs and other Segregation
-        - Classes
-        - IDs
-        - Other Segregation
-            - The <span> tag
-            - The <div> tag
-                - Background color
-                - Floating
-                - Positioning
-                - Margins and Padding
-                - Z-Index
-    - The <link> Tag, Comments, and other Developer Joys
-        - The <link> tag
-        - Commenting
-            - HTML Comments
-            - CSS Comments
-        - Other Developer Joys
-            - Forms
-            - HTML5 and CSS3
-            - How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)        
- - Final Project!
+	- Classes and IDs and other Segregation
+		- Classes
+		- IDs
+		- Other Segregation
+			- The <span> tag
+			- The <div> tag
+				- Background color
+				- Floating
+				- Positioning
+				- Margins and Padding
+				- Z-Index
+	- The <link> Tag, Comments, and other Developer Joys
+		- The <link> tag
+		- Commenting
+			- HTML Comments
+			- CSS Comments
+		- Other Developer Joys
+			- Forms
+			- HTML5 and CSS3
+			- How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)        
+ - [Final Project!](https://github.com/cassidoo/HTML-CSS-Tutorial#final-project)
  - And now, the end is near
 
 ##HTML Time. Let's Go.
