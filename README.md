@@ -25,7 +25,7 @@ On a computer.  Here.
 Because this stuff is important.  Whether you're a business person formatting your emails, an aspiring web designer wanting to get your feet wet, or just someone who is interested and hasn't tried any sort of coding, scripting, or programming before, **HTML and CSS are an essential part** of your learning curve.
 
 ##Table of Contents
-- [HTML](https://github.com/cassidoo/HTML-CSS-Tutorial)
+ - [HTML](https://github.com/cassidoo/HTML-CSS-Tutorial#html-time-lets-go)
     - Editors
     - Tag Structure
     - Text Structure
@@ -41,7 +41,7 @@ Because this stuff is important.  Whether you're a business person formatting yo
         - Text Styles
     - The <head> tag
     - Putting it all together so far
-- [CSS](https://github.com/cassidoo/HTML-CSS-Tutorial)
+ - [CSS](https://github.com/cassidoo/HTML-CSS-Tutorial#css-is-magical-and-now-youre-gonna-learn-it)
     - Classes and IDs and other Segregation
         - Classes
         - IDs
@@ -62,8 +62,8 @@ Because this stuff is important.  Whether you're a business person formatting yo
             - Forms
             - HTML5 and CSS3
             - How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)        
-- [Final Project!](https://github.com/cassidoo/HTML-CSS-Tutorial)
-- [And now, the end is near](https://github.com/cassidoo/HTML-CSS-Tutorial)
+ - [Final Project!](https://github.com/cassidoo/HTML-CSS-Tutorial#final-project)
+ - And now, the end is near
 
 ##HTML Time. Let's Go.
 
