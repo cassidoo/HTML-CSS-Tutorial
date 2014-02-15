@@ -1,35 +1,52 @@
 body
 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	margin: 0px 300px;
+	font-size: 16px;
 }
 
 h1
 {
 	font-size: 36px;
+	font-weight: 900;
 }
 
 h2
 {
 	font-size: 32px;
+	font-weight: 900;
 }
 
 h3
 {
 	font-size: 28px;
+	font-weight: 900;
 }
 
 h4
 {
 	font-size: 24px;
+	font-weight: 900;
 }
 
 h5
 {
 	font-size: 18px;
+	font-weight: 900;
 }
 
 h6
 {
-	font-size: 14px;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+p
+{
+	font-weight: 300;
+}
+
+pre, code
+{
+	font-family: 'Inconsolata', sans-serif;
 }
