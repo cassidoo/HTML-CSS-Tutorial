@@ -1193,7 +1193,7 @@ If you want to read more about HTML5 and CSS3, check out some of the links below
 
 Honestly I have nothing to put here I just like the joke that HTML stands for that.
 
-I hope your HTML is spin and <span>.  Heh.
+I hope your HTML is spick and `<span>`.  Heh.
 
 ##Final Project!
 
