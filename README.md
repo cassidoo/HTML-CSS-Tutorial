@@ -3,7 +3,7 @@ HTML+CSS Tutorial
 
 ###Who
 
-I'm Cassidy.  I'm a current student in computer science and I've been teaching myself HTML, CSS, and other web programming and scripting for over 8 years.
+I'm Cassidy.  I'm a recent computer science grad, and I've been teaching myself HTML, CSS, and other web programming and scripting for over 8 years.
 And I want to teach you now.
 Because you're good looking.
 And because it's useful.
