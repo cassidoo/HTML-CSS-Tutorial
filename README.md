@@ -3,7 +3,7 @@ HTML+CSS Tutorial
 
 ###Who
 
-I'm Cassidy.  I'm software engineer & developer evangelist at [Venmo](http://venmo.com), and I've been teaching myself HTML, CSS, and other web programming and scripting for over 9 years.
+I'm Cassidy.  I'm software engineer & developer evangelist at [Clarifai](http://clarifai.com), and I've been teaching myself HTML, CSS, and other web programming and scripting for over 10 years.
 And I want to teach you now.
 Because you're good looking.
 And because it's useful.
