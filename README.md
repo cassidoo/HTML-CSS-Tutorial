@@ -1,30 +1,30 @@
 HTML+CSS Tutorial
 =================
 
-###Who
+### Who
 
 I'm Cassidy.  I'm software engineer & developer evangelist at [Clarifai](http://clarifai.com), and I've been teaching myself HTML, CSS, and other web programming and scripting for over 10 years.
 And I want to teach you now.
 Because you're good looking.
 And because it's useful.
 
-###What
+### What
 
 In this tutorial, we'll start from the very beginning.  You don't need to know anything about HTML and CSS or anything about code to start.  I'll include some tutorial files for you to play with and check out.
 
-###When
+### When
 
 Now.  Or whenever.  I'm not planning on taking this down anytime soon.  But you are only limited by your own schedule.  Or set free by it.  Whatever.
 
-###Where
+### Where
 
 On a computer.  Here.
 
-###Why
+### Why
 
 Because this stuff is important.  Whether you're a business person formatting your emails, an aspiring web designer wanting to get your feet wet, or just someone who is interested and hasn't tried any sort of coding, scripting, or programming before, **HTML and CSS are an essential part** of your learning curve.
 
-##Table of Contents
+## Table of Contents
  * [HTML](https://github.com/cassidoo/HTML-CSS-Tutorial#html-time-lets-go)
 	* Editors
 	* Tag Structure
@@ -65,9 +65,9 @@ Because this stuff is important.  Whether you're a business person formatting yo
  * [Final Project!](https://github.com/cassidoo/HTML-CSS-Tutorial#final-project)
  * And now, the end is near
 
-##HTML Time. Let's Go.
+## HTML Time. Let's Go.
 
-###Editors
+### Editors
 
 So the first thing you'll need is an editor to edit your jazz.  There's tons of options out there.
 
@@ -79,7 +79,7 @@ So the first thing you'll need is an editor to edit your jazz.  There's tons of 
 
 There's a bunch of others [listed here](http://en.wikipedia.org/wiki/List_of_HTML_editors), I just listed the ones I've used and liked!
 
-###HTML Tag Structure
+### HTML Tag Structure
 
 Here is a barebones HTML page, about as simple as you can get.  You can open it up in the **1 - Structure** folder in the file part1.html.  If you were to open the file in your favorite browser (which you can do, go ahead), you'll see a plain webpage with the title "My Website" and the words, "Hello, World!" written on the page.
 
@@ -118,7 +118,7 @@ Inside `<html>`, there are two elements: `<head>`and `<body>`. Contained in `<he
 
 On the other side of the planet, we have `<body></body>`.  Everything visible to the user is contained in these tags.  Right now, all that consists of is "Hello, World!"  Let's change that for fun.  Replace "Hello, World!" with your own text in your favorite HTML editor, and then open the page in your browser.  Neat!
 
-###Structuring text
+### Structuring text
 
 Let's get juicy.  We're going to talk about some new tags for structuring your text.  Because you're not going to want just one style of text throughout your whole website, right?
 
@@ -132,7 +132,7 @@ Next, we have `<p>` tags.  `<p>` adds a *paragraph* of text to our website, whic
 
 And finally, we have `<ul>`.  `<ul>` means a bulleted list (also known as an *unordered list*), where every `<li>` is an item in that list (called a *list item*). But what if you want a numbered list?  You could change `<ul>` to `<ol>` (and don't forget its closing tag), it's that simple!  `<ol>` is an *ordered list*, which has numbers instead of bullet points, and that is truly the only difference.  Add some list items (`<li>`) to the list (make sure you stay inside the `<ul>` tags), and then change your `<ul>` tags to `<ol>`!
 
-###Links
+### Links
 
 Links are what makes the world/Internet go 'round.  Seriously.  So, let's learn about them.
 
@@ -155,7 +155,7 @@ So, anyway, the attribute 'href' tells us where the link is going to go when the
 
 Also, one thing you should note:  Links don't have to be in `<p>` tags like I put above.  You could put them in `<li>` tags in a list, `<h1>` tags for a linking header, or completely on their own!
 
-####Adding links to other pages in your website
+#### Adding links to other pages in your website
 Let's just say you have a fully functioning website called fakewebsite.com.  You have your homepage and your "Contact Us" page in the same directory or folder.
 
 Normally when a beginner links to different pages on their website, they just make links that look like `<a href="http://www.fakewebsite.com/index.htmL">Home</a>` and `<a href="http://www.fakewebsite.com/contactus.htmL">Contact Us</a>`.
@@ -170,11 +170,11 @@ Paste this line of code into page1.html.  Watch the magic happen.
 
 Now, if you were to change your domain or location of your files, you don't have to change a thing.  Boo yah.
 
-###Other tags
+### Other tags
 
 So, you can reference the links that I showed you before if you want to check out some jazzy stuff you can do with your page.  There are some other ones though that you might want to see before we move on to cooler and bigger things.
 
-####Images
+#### Images
 `<img>`. Let's just say you want to put an image on your website.  This is probably a good tag to know.  
 Add the following to page1.html:
 
@@ -188,7 +188,7 @@ One attribute that might be good for you to remember for `<img>` tags is the `al
 
 When you load the page in the browser, the image looks the same.  But, if you roll your mouse over the image, you'll see some words appear!  WOW.  That's the `alt` attribute.  It stands for the *alternate text* for an image, and it's used when a user can't view the image for whatever reason (using a screen reader, slow connection, error in the `src` attribute, etc.).  Or, in the case of [XKCD](http://xkcd.com/), it's used to add more humor to the page (roll your mouse over all of the comics on the site, they always add another joke or two that a lot of people don't know about).
 
-####Line breaks
+#### Line breaks
 Let's just say you want to keep all your content in one paragraph `<p>`, but you still want to break it up.
 
 That's easy.
@@ -200,7 +200,7 @@ So, there's two special tags here, `<hr>` and `<br>`.  They are *empty tags*, me
 
 Try inserting these in between some of your `<p>` tags to try it out!
 
-####Tables
+#### Tables
 Tables are really cool.  They can also be a bit confusing.  Open up tables.html (in the **2 - Tags**  folder) in a browser to check out the example table I made for you there.
 
 There's several tags for tables, but the essential ones are `<table>`, `<tr>`, `<th>`, and `<td>`.  Look at tables.html in your editor.
@@ -281,13 +281,13 @@ One other fun thing you can try playing with are the `colspan` and `rowspan` att
 
 You can also nest tables, but I won't get into that right now.  If you want to play around with the code, try adding some `<tr>` and `<td>` tags inside your current `<td>` tags.  MaGiCal ThInGs.
 
-###Making Things Gorgeous The Wrong Way
+### Making Things Gorgeous The Wrong Way
 
 So, your website right now looks pretty bland, and that's normal.  But, we want a website that is hot, sexy, ravishing, and powerful.  Yes, that's right, we want a website just like you.
 
 So first, I will show you the wrong way to style your pages.  You might ask why, but trust me, if you learn in this order, you'll understand HTML attributes a lot better, and then when you move on to CSS your mind will explode with joy.  Explode.
 
-####Colors
+#### Colors
 
 Alrighty.  Let's get frisky.  Open up the **3 - Styles**  folder and the file style1.html.  You might notice that this file is pretty bland right now, but that's what we're gonna fix.  Be patient, my grasshopper.
 
@@ -314,7 +314,7 @@ Try adding colors to various tags on the page!  You can make your `<h1>` the col
 
 Now, you might see the syntax in your HTML journey where you actually have the `color` attribute, like `<p color="red">wut</p>`.  Though this is technically allowed, please don't do this.  Please.  You'll be so much happier in the long run, I promise.
 
-####Width and Height
+#### Width and Height
 
 So, what if you want to make a picture or a paragraph a different size?  Easy peasy.
 
@@ -347,7 +347,7 @@ If you have more than one property that you want to style, for example both heig
 	
 Why is the syntax this funky?  Well, that's because it's secretly CSS syntax.  But we'll get into that more later.
 
-####Borders
+#### Borders
 
 What if we have a paragraph IN A BOX.  That's right.  Kind of like a table.  But not.  That'd be cool.  Of course, there are plenty of other things that can have a border.  Buttons (we'll get to those later), color blocks (also later), and images, and MORE can have them.  Mmmhm.
 
@@ -379,7 +379,7 @@ Let's mix it up a bit with different borders for you to check out.  I'm just goi
 			
 Notice how I added `width` and `height` to a couple of them.  We're getting incestuous with our stylings.  Aww yeah.
 
-####Text Styles
+#### Text Styles
 
 Besides having header tags and colors, there are other text styles that you can use.  What if you want bold text, or italics?  Different sizes?  Once again, the `style` attribute comes to the rescue.
 
@@ -398,7 +398,7 @@ Browser time.  You've now got some text in the font Arial, and it's italic!  WOO
 The properties we used here are `font-family` and `font-style`.  For the former, you can choose a lot of fonts, but you have to be careful.  Not every computer has the same fonts.  This is just my personal opinion: don't put something here besides Arial unless you've done some JavaScript magic.  And because I'm assuming you don't know JavaScript, don't use this unless you're changing this to Arial.  At least not yet. :)
 And for `font-style`, it can be `normal`, `oblique`, and `italic`.  You can play with those now, it's pretty straightforward.
 
-###The `<head>` Tag
+### The `<head>` Tag
 
 Before we start going insane with how good you are at HTML, let's start looking at something that you haven't played with yet.  The `<head>` tag.
 
@@ -436,13 +436,13 @@ Add this after your description line, and stick your name in it!  I think I got 
 	
 And there you have it, a self-refreshing webpage.  You're so good at this.
 
-###Putting it all together so far
+### Putting it all together so far
 
 Okay, you have a pretty solid understanding of stuff so far.  I want you to take cooking.html, and make it shine.
 Resize the images so the page is more uniform.  Add borders to them.  Change the font styles and weights.  Change the colors.  Add some keywords in the metadata and change the title of the page.
 Using the information I've given you so far, you can make a pretty good looking site!
 
-##CSS is magical, and now you're gonna learn it.
+## CSS is magical, and now you're gonna learn it.
 
 So far, we've been making things pretty the wrong way.  So, we're going to learn it the right way.  So excited.
 
@@ -508,11 +508,11 @@ You will always have your CSS in the syntax, `selector { property: value; proper
 
 Try playing around with the CSS we have right now.  Edit the colors, add some borders, change the font styles.  Don't forget your semicolons!
 
-###Classes and IDs and other Segregation
+### Classes and IDs and other Segregation
 
 So, you have some of the CSS basics down already.  You're so smart.  It's really a simple language, once you know the basic syntax.  So, now we'll get into more fancy stuff.  What if you want to edit several tags differently?
 
-####Classes
+#### Classes
 
 Let's say that we have 8 `<p>` tags on our HTML page (hint: open style3.html in the **3 - Styles** folder).  
 If we want to style each of these tags differently, we can use *classes*.  A class is actually an HTML attribute that you can name whatever you want.  
@@ -551,7 +551,7 @@ Gosh you're good at this.  Go eat a cookie.
 
 [Pausing here for cookie break]
 
-####IDs
+#### IDs
 
 Now, let's talk about IDs.  They are very similar to classes.  The only real difference between classes and IDs is that you can only have one of each ID.  So, for example, if you have a special paragraph that you only want to style once, then you can stick in there the `id` attribute like so:
 
@@ -566,11 +566,11 @@ When you want to style your IDs, you put a hashtag `#` before it in your CSS, li
 	
 Remember:  You can only use an ID once.  IDs are more helpful when you're controlling the element with JavaScript, not styling, but that's something for another day.
 
-####Other Segregation
+#### Other Segregation
 
 Let's say that you want to separate individual text in your paragraphs or sections on your page.  Let's introduce 2 new tags: `<span>` and `<div>`.
 
-#####The `<span>` tag
+##### The `<span>` tag
 The `<span>` tag is pretty invisible unless you style it.  It's used to group *inline-elements* (so like a word in a paragraph), and it doesn't actually do anything unless you style or manipulate it with something else.
 
 So, let's say you have a paragraph and you really want to emphasize some text within a paragraph without a line break or anything.  In comes `<span>`.  For example:
@@ -600,7 +600,7 @@ Wait a minute.  Hold up.  `p span`??  WHY THE SPACE?  Calm yourself, I'll tell y
 
 Make sense?  I hope so.  To sum up: `<span>` tags separate specific parts of paragraphs or other inline sections of a page.  They do nothing otherwise.  You can nest CSS if you want.  Boom.  Next.
 
-#####The `<div>` tag
+##### The `<div>` tag
 
 Alrighty.  Go enjoy a beach vacation and then come back to this.
 
@@ -700,7 +700,7 @@ Makes sense?  I hope so.  You're hot.
 
 Okay, so if you open `homepage.html` in the browser, you see nothing.  That's okay.  Let's change that by learning a few new CSS properties! 
 
-######Background color
+###### Background color
 
 One property that you will learn to know and love is `background-color`.  
 It does exactly what you would expect it to: it sets the background color of the element it is styling!  
@@ -742,7 +742,7 @@ Let's add some backgrounds.
 Save in your editor and now refresh in that browser!  WOW.  COLOR.  Now, our site definitely isn't perfect yet.  
 Let's throw some MORE new CSS properties at you!
 
-######Floating
+###### Floating
 
 One property that you will probably use fairly often is `float`.  This is one of those properties that you will learn to both love and hate. 
 It's kind of magical.
@@ -810,7 +810,7 @@ Let's make it so that your header and footer are always on the top and bottom of
 
 Incoming, the `position` property.
 
-######Positioning
+###### Positioning
 
 The `position` property is pretty much exactly what one would expect a positioning property to do:  It positions things.
 
@@ -873,7 +873,7 @@ Why the heck is that happening?
 
 I'll tell you.
 
-######Margins and Padding
+###### Margins and Padding
 
 ![Alt](cpbm.jpg)
 
@@ -1012,7 +1012,7 @@ The same goes for `padding`, you can also do `padding: 5px 10px 15px 0px;`, etc.
 Now, with all that you've learned so far, you should probably make this a really great, functional website.  
 I'll teach you just one more thing, and then I'll set you free like a bird or something.
 
-######Z-Index
+###### Z-Index
 
 The property `z-index` isn't one that you'll run into super often, but it's something that will help you in the long run. 
 
@@ -1098,12 +1098,12 @@ But hey, that's a LOT of reusing code.  Plus what if someone is trying to read y
 
 Duh.
 
-###The `<link>` Tag, Comments, and other Developer Joys
+### The `<link>` Tag, Comments, and other Developer Joys
 
 Let's just say you want to reuse your styles across your website on every page.  It makes sense.  
 It'd be kind of annoying to have drastic changes on every page.
 
-####The `<link>` tag
+#### The `<link>` tag
 
 That's where the `<link>` tag comes in!  The `<link>` tag is an empty tag (like <br> and <img>), so it has no end tag, and it's used to link to external stylesheets!
 
@@ -1122,7 +1122,7 @@ And finally, `href`.  You remember this one, I hope!  It's just like our `<a>` t
 Let's check out this `<link>` tag in action.  Open up the **6 - Linking** folder and open home.html, and paste the `<link>` line above on the line below the `<title>` tags in the `<head>`.  Voila!  That's it.  Refresh your browser and check out the magic.  It should look just like what we made in the previous section!  
 Now, if you open the main.css file in your editor, you'll see that it's all the CSS you recognize and love, but there's no `<style>` tags.  Those tags aren't needed when you are using a CSS file!
 
-####Commenting
+#### Commenting
 
 Let's just say that you want to show off your code to someone, but they're not exactly sure what you're doing.  
 
@@ -1130,7 +1130,7 @@ You can add comments!
 
 *Comments* in your code are blocks of text that will not be read by the computer.  Every computer language has them.
 
-#####HTML Comments
+##### HTML Comments
 
 In HTML, a comment looks like this:
 
@@ -1140,7 +1140,7 @@ As you can see, it almost looks like a regular tag, with an opening `<!--` and a
 
 Look inside the **7 - Project** folder, and open index.html.  You'll see a few comments there.  Notice how you can put them all on one line, or in a multi-line block!  As long as you have a beginning `<!--` and end `-->`, you have total freedom with comments.
 
-#####CSS Comments
+##### CSS Comments
 
 Don't worry, you can comment your CSS too!
 
@@ -1155,12 +1155,12 @@ And again, you can have single-line comments, and multi-line ones too.
 Comments are great for keeping track of what you're doing, especially if a project you're working on spans over a period of time.  
 You can make notes for yourself to check later, or you could just tell someone who is reading your code that they are attractive.
 
-####Other Developer Joys
+#### Other Developer Joys
 
 There's so many things that could go in this section for such a generic title.  So, what am I going to tell you?  
 Well, I'm going to tell you what I *haven't* taught you so far.
 
-#####Forms
+##### Forms
 
 A common thing you'll see on websites are forms, like textboxes, buttons, and checkboxes.
 I didn't teach you these because you can't do things with them unless you know a bit more than beginner knowledge, which isn't the purpose of this tutorial.
@@ -1172,7 +1172,7 @@ If you're really dying to see a button, here you go:
 And there you have it, a button on your website!  If you actually want to know how to make the button or form do something, you'll need to know some JavaScript.
 Until you do, here's more information on buttons: [W3Schools - HTML Forms](http://www.w3schools.com/tags/tag_form.asp)
 
-#####HTML5 and CSS3
+##### HTML5 and CSS3
 
 If you've read anything about the internet and developing for it, you've probably heard some key words thrown around, and a couple of those key words are HTML5 and CSS3.
 What are those, actually?  Well, HTML5 is the latest standard for HTML.  The previous HTML version came out in 1999, which is quite a while ago.  Unless you're time traveling right now and you printed this out to read as you go.
@@ -1189,13 +1189,13 @@ If you want to read more about HTML5 and CSS3, check out some of the links below
  * [HTML5 Rocks](http://www.html5rocks.com/)
  * [Dive Into HTML5](http://diveintohtml5.info/)
 
-#####How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)
+##### How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)
 
 Honestly I have nothing to put here I just like the joke that HTML stands for that.
 
 I hope your HTML is spick and `<span>`.  Heh.
 
-##Final Project!
+## Final Project!
 
 Alrighty!  So you've looked at the **7 - Project** folder a bit, but I haven't told you what that folder is for yet.
 
@@ -1219,7 +1219,7 @@ The best way to learn is by doing.  Do as much as you can until you think you ha
 
 And if you need help you can always come back and visit. :)
 
-##And now, the end is near
+## And now, the end is near
 
 Actually, now the end is here.
 
