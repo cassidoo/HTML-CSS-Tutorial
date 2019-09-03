@@ -309,7 +309,7 @@ Don't worry, you won't have to come up with RGB and HEX colors yourself.  There'
  * [Color Picker](http://www.colorpicker.com/)
  * [HTML color codes and names](http://www.computerhope.com/htmcolor.htm)
  * [HTML Color Codes](http://html-color-codes.info/)
- * [HTML Color Picker](http://www.w3schools.com/tags/ref_colorpicker.asp)
+ * [HTML Color Picker](http://www.w3schools.com/colors/colors_picker.asp)
 
 Try adding colors to various tags on the page!  You can make your `<h1>` the color `#005DFC`, your `<h3>` tag `rgb(242,127,56)`, and your `<p>` tag `lightblue`.  Keep playing til you're happy.
 
