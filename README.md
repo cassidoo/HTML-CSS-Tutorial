@@ -3,7 +3,7 @@ HTML+CSS Tutorial
 
 ### Who
 
-I'm Cassidy.  I'm a senior software engineer and I've been teaching myself HTML, CSS, and other web development and scripting for over 10 years.
+I'm Cassidy. I'm a engineer and I've been teaching myself HTML, CSS, and other web development and scripting for over 15 years.
 And I want to teach you now.
 Because you're good looking.
 And because it's useful.
@@ -61,7 +61,7 @@ Because this stuff is important.  Whether you're a business person formatting yo
 		* Other Developer Joys
 			* Forms
 			* HTML5 and CSS3
-			* How To Meet Ladies/Laddies (Get it? HTML Jokes are the best...)        
+			* How To Meet Losers (Get it? HTML Jokes are the best...)        
  * [Final Project!](https://github.com/cassidoo/HTML-CSS-Tutorial#final-project)
  * And now, the end is near
 
