@@ -27,10 +27,10 @@ p span {
   z-index: 10;
 }
 .content {
-  height: 200px;
   position: absolute;
   top: 60px;
   padding: 10px;
+  margin-bottom: 60px;
   z-index: 0;
 }
 .footer {
