@@ -1,0 +1,56 @@
+table.cal{
+	color: #06425C;
+	border-spacing: 0;
+	border:3px solid black;
+	-webkit-border-radius:25px 25px 0 0;
+	border-radius: 0 0 25px 25px
+}
+/*alt colors for odd and even */
+tr:nth-child(odd){
+	background: #F2F2F2;
+}
+tr:nth-child(even){
+	background: #CDBB79
+}
+tr:last-child{
+	-webkit-border-radius:25px 25px 0 0;
+	border-radius: 0 0 25px 25px;
+}
+tr:last-child>td:first-child{
+	-webkit-border-radius:0 0 0 25px;
+	border-radius: 0 0 25px 0;
+}
+.cal caption{
+	text-transform: uppercase;
+	background-color: #666666;
+	color: #ffffff;
+	font-size: 150%;
+}
+th{
+	text-align: center;
+	background: #FFFFFF;
+}
+.cal th, .cal td{
+	margin: 2px;
+	padding-bottom: 2px;
+}
+.cal td{
+	width: 75px;
+	height: 75px;
+	vertical-align: top;
+}
+.old{
+	padding: 0;
+	margin: 0;
+	background-color: #51A39D;
+	border-spacing: 0;
+}
+span{
+	display: block;
+	text-align: center;
+	visibility: hidden;
+
+}
+td: active>span{
+	visibility: visible;
+}
