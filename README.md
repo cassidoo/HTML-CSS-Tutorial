@@ -5,8 +5,8 @@ HTML+CSS Tutorial
 
 I'm Cassidy. I'm a engineer and I've been teaching myself HTML, CSS, and other web development and scripting for over 15 years.
 And I want to teach you now.
-Because you're good looking.
-And because it's useful.
+Because you have capbility and dedication.
+And because it's useful and interesting.
 
 ### What
 
@@ -18,14 +18,14 @@ Now.  Or whenever.  I'm not planning on taking this down anytime soon.  But you 
 
 ### Where
 
-On a computer.  Here.
+In the comfort of your home :) , on your computer.
 
 ### Why
 
 Because this stuff is important.  Whether you're a business person formatting your emails, an aspiring web designer wanting to get your feet wet, or just someone who is interested and hasn't tried any sort of coding, scripting, or programming before, **HTML and CSS are an essential part** of your learning curve.
 
 ## Table of Contents
- * [HTML](https://github.com/cassidoo/HTML-CSS-Tutorial#html-time-lets-go)
+ * [HTML] (https://github.com/cassidoo/HTML-CSS-Tutorial#html-time-lets-go)
 	* Editors
 	* Tag Structure
 	* Text Structure
@@ -41,14 +41,15 @@ Because this stuff is important.  Whether you're a business person formatting yo
 		* Text Styles
 	* The `<head>` tag
 	* Putting it all together so far
- * [CSS](https://github.com/cassidoo/HTML-CSS-Tutorial#css-is-magical-and-now-youre-gonna-learn-it)
-	* Classes and IDs and other Segregation
+ * [CSS] (https://github.com/cassidoo/HTML-CSS-Tutorial#css-is-magical-and-now-youre-gonna-learn-it)
+	* Classes and Ids and other Segregation
 		* Classes
-		* IDs
+		* Ids
 		* Other Segregation
 			* The `<span>` tag
 			* The `<div>` tag
 				* Background color
+				* Background image
 				* Floating
 				* Positioning
 				* Margins and Padding
@@ -72,18 +73,23 @@ Because this stuff is important.  Whether you're a business person formatting yo
 So the first thing you'll need is an editor to edit your jazz.  There's tons of options out there.
 
  * Notepad/TextEdit (that's right, the stupid thing that comes on your computer) - This is about as basic as you can get.  It's totally okay if you want to use this, but I recommend one of the editors below just so you can see code highlighting (which will help you out later on).  But, if you want to be a purist, this'll work just fine.
- * [Visual Studio Code](https://code.visualstudio.com/) - This is what I typically use. It's open source and has TONS of extensions available.
+ * [Visual Studio Code](https://code.visualstudio.com/) - This is what I typically use. It's open source and has TONS of extensions available.It 
+   provide ease of edit , built and debug so its perfect :) for day-to-day use.
+   
  * [Atom](https://atom.io/) - This is another very customizable option, with a huge plugin library and open source so it's always being improved.
- * [Sublime Text 3](https://www.sublimetext.com/3) - This is a pretty popular option, and for good reason.  Very clean interface.  Once you can navigate it (learning curve isn't that big), it's pretty dreamy. Like your face.
- * [CodePen Projects](http://codepen.io/projects/) - This is an in-browser code editor, so you can code directly within the web browser, no downloads required. :)
- * [Glitch](https://glitch.com/) - This is another in-browser code editor. It is meant for larger projects, but it's nice to not have to download anything!
- * [Notepad++](http://notepad-plus-plus.org/) - This is just one step up from Notepad.  But it's pretty dece.  Code highlighting is in it, and nothing else too fancy, which is what I like about it.
+ 
+ * [Sublime Text 3](https://www.sublimetext.com/3) - This is a pretty popular option, and for good reason.  Very clean interface.  Once you can      navigate it (learning curve isn't that big), it's pretty dreamy. Like your face.
+ 
+ * [CodePen Projects](http://codepen.io/projects/) - This is an in-browser code editor, so you can code directly within the web browser, no 	      downloads required. :)
+ 
+ * [Glitch](https://glitch.com/) - This is another in-browser code editor. It is meant for larger projects, but it's nice to not have to download    anything!
+ * [Notepad++](http://notepad-plus-plus.org/) - This is just one step up from Notepad.  But it's pretty dece.  Code highlighting is in it, and        nothing else too fancy, which is what I like about it.
 
 There's a bunch of others [listed here](http://en.wikipedia.org/wiki/List_of_HTML_editors), I just listed the ones I've used and liked!
 
 ### HTML Tag Structure
 
-Here is a barebones HTML page, about as simple as you can get.  You can open it up in the **1 - Structure** folder in the file part1.html.  If you were to open the file in your favorite browser (which you can do, go ahead), you'll see a plain webpage with the title "My Website" and the words, "Hello, World!" written on the page.
+Here is a barebones HTML page, about as simple as you can get.  You can open it up in the **1 - Structure** folder in the file part1.html.  If you were to open the file in your favorite browser (which you can do, go ahead), you'll see a plain webpage with the title "My Website" and the words, "Hello, World!" written on the page.Yay! here's our first HTML page :) . Okay its just "Hello, World!" written on page but we must appreiate for our very first success :) don't we ?  
 
 ```html
 <!doctype html>
@@ -297,7 +303,7 @@ Alright!  Our table is all set up.  We have a table with a `border=1` attribute,
 </table>
 ```
 	
-Open the page in a browser and check out your work.  Nice job!  I'm truly impressed.  Go eat something good and fattening.
+Here we go! ,open the page in a browser and check out your work.  Nice job! :)  I'm truly impressed.  Go eat something good and fattening.
 
 One other fun thing you can try playing with are the `colspan` and `rowspan` attributes.  If you add `colspan="2"` (or `rowspan`, or any other number) into a `<th>` or `<td>` tag, the cell will expand past their cell size.  For example, `<th colspan="2">` will give you a table header that spans 2 columns, and `<td rowspan="3">` will yield a cell that is the height of 3 rows.  Jazzy!
 
@@ -781,6 +787,35 @@ body {
 Save in your editor and now refresh in that browser! WOW. COLOR. Now, our site definitely isn't perfect yet.  
 Let's throw some MORE new CSS properties at you!
 
+###### Background-image
+One more property that you will learn to know and love is `background-image`.  
+It does exactly what you would expect it to: it sets the background image of the element it is styling!  
+You can set a background image for any element and can set its position ,height , width.Its easy and interesting making your 
+website attractive like you ;).
+```body{
+	background-image:url("img_demo.png");
+	height:500px;
+	width:300px;
+	//can adjust height width according to you :)
+}
+div{
+	background-image:url("img_demo.png");
+	height:500px;
+	width:300px;
+	}
+#idName{
+	background-image:url("img_demo.png");
+	height:500px;
+	width:300px;
+	}
+.className{
+	background-image:url("img_demo.png");
+	height:500px;
+	width:300px;
+	}
+
+```
+
 ###### Floating
 
 One property that you will probably use fairly often is `float`.  This is one of those properties that you will learn to both love and hate. 
@@ -1241,6 +1276,8 @@ I made your homepage for you, and your main CSS document.  But don't let that li
 The best way to learn is by doing.  Do as much as you can until you think you have everything down pat.
 
 And if you need help you can always come back and visit. :)
+
+All the best for your future endeavour. 
 
 ## And now, the end is near
 
