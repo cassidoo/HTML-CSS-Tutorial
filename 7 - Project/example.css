@@ -1,4 +1,136 @@
-html {
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,600;0,800;0,900;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* NAVBAR AREA */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  background: #0f215d;
+}
+.logo {
+  font-size: 19px;
+  text-transform: uppercase;
+  color: wheat;
+  letter-spacing: 1px;
+}
+.intro {
+  font-size: 19px;
+  text-transform: uppercase;
+  color: orange;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+/* ABOUT-SELF AREA */
+.about-self {
+  display: flex;
+  padding: 50px 100px;
+}
+.left-section {
+  flex: 1.5;
+  margin-top: 15px;
+}
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content:flex-end;
+}
+.section-header {
+  color: crimson;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.section-heading {
+  color: #0f215d;
+  font-size: 25px;
+  letter-spacing: 1.2px;
+  margin-bottom: 20px;
+}
+.self-intro {
+  /* width: 80%; */
+  text-align: justify;
+}
+
+.image-resizing {
+  width: 200px;
+  height: auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* FEATURED SECTION AREA */
+.features {
+  display: flex;
+  padding: 20px 100px;
+  justify-content: space-between;
+
+}
+.presentations{
+  flex:1;
+  padding:30px 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  margin:10px 30px 30px 0px;
+
+
+}
+
+.publications{
+  flex:1;
+  padding:30px 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  margin:10px 0px 30px 30px;
+}
+
+.paragraph{
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.fa-check-circle{
+  color: crimson;
+  margin-right: 10px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  background: #0f215d;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.contact-me{
+  font-size: 14px;
+  text-transform: uppercase;
+  color: wheat;
+  letter-spacing: 1px;
+
+}
+.all-rights{
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+
+}
+span{
+  font-size: 14px;
+  color: white;
+}
+.contact{
+  font-weight: bold;
+  color: orange;
+
+}
+/* html {
   height: 100%;
 }
 body {
@@ -40,4 +172,4 @@ p span {
   height: 60px;
   width: 100%;
   z-index: 10;
-}
+} */
