@@ -1,4 +1,4 @@
-HTML+CSS Tutorial
+HTML+CSS Tutorial (Very Easy)
 =================
 
 ### Who
