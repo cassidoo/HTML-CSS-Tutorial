@@ -503,6 +503,8 @@ We're going to be working in the `<head>` tag again.  Underneath the `<title>` t
 
 ```html
 <style>
+	* { }
+	
 	body { }
 
 	h1 { }
@@ -516,12 +518,16 @@ We're going to be working in the `<head>` tag again.  Underneath the `<title>` t
 Congratulations.  You have some empty CSS.  Now, what the heck is CSS anyway?  Well, CSS stands for *Cascading Style Sheets*.  Gee whiz, that word *style* is everywhere.  And it's true.  The `style` attribute is for styling *inline* HTML (just that line of code), the `<style>` tag is for holding CSS, and CSS *defines* the styles!  Let that sink in.  Nice.  Stylish.  Just like you.
 
 Now, you'll notice some familiar keywords in there, in particular, `body`, `h1`, `p`, and `ol`.  That's right, they're the tags we know and love!  But, in CSS, these are called *selectors*.  The selector tells us what tag you're about to style.  So, whatever code you put in between the curly braces `{}` after the `body` selector will affect everything in the `<body>` tags.  Whatever you put in the braces after the `p` selector will affect what's in the `<p>` tags.
-Whatever code you have in those curly braces will only affect that tag, so if you try editing the font colors for the `h1` selector, it won't affect whatever is in the `p` selector's tags.  Each portion of code `selector { code }` in CSS is called a *declaration*.  Make sense?  Good.  If not, keep reading and hopefully it will become more clear as we go on.
+Whatever code you have in those curly braces will only affect that tag, so if you try editing the font colors for the `h1` selector, it won't affect whatever is in the `p` selector's tags. But you must have noticed that their is a new selector, yes that is (*), its name is 'Universal Selector' it selects every element on the website means if you put whatever code in between the curly braces after the '*' selector will affect every element on the website. Each portion of code `selector { code }` in CSS is called a *declaration*.  Make sense?  Good.  If not, keep reading and hopefully it will become more clear as we go on.
 
 The code that we're going to be putting in each declaration is the same syntax as the code that we normally put in the `style` attribute.  How convenient.  So, change your code above to the following:
 
 ```html
 <style>
+	* {
+		background-color: #00ffff;  
+  	}
+	
 	body {
 		font-family: Arial;
 	}
