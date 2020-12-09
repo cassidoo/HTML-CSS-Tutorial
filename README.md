@@ -450,16 +450,8 @@ So.  What else can go in the `<head>`?  We've already got `<title>`, which we've
 The `<meta>` tag gives *metadata* about the HTML document. Metadata will not be displayed on the page, but machines can read it.  An example of metadata not on a webpage is in a typical music file.  When you have a music file on your computer and you open it in some media player of some kind, it shows the album title, the artist, the genre, and other information about the song.  This information is metadata.  The user can't see it directly in the music file, but your music players can read it and will tell you what it is.
 So, on a website, this metadata is used by search engines, your browser, and other web services to make your website easy to find, read, and display.
 
-There are 4 important uses for the `<meta>` tag.  There are plenty of other uses, but let's be honest, I don't care about them right now, and I don't think you do either.
+There are 3 important uses for the `<meta>` tag.  There are plenty of other uses, but let's be honest, I don't care about them right now, and I don't think you do either.
 Open up the **4 - Head** (heh get it?  Forehead?  I crack myself up.) folder, and open cooking.html in your favorite editor.
-
- * *Defining keywords for search engines.*  Let's say that you have a website that's about cooking, hence our filename.  You want people searching for your website to be able to find it.  So, you can add the following right before the `<title>` tag:
-
-```html
-<meta name="keywords" content="cooking, cook, recipe, food, microwave">
-```
-
-Simple enough.  Now, when people search using the terms cooking, cook, recipe, food, and microwave, your website is pushed up in the results.  Nice!
 	
  * *Defining a description of your site.*  Again, this one is for the search engines.  Whenever you search for a website, there's a tiny description in the search results.  Go search for anything right now, and you'll see it.  So, you can define what that is with this snippet:
 
