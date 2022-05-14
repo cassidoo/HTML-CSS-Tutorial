@@ -25,45 +25,46 @@ On a computer.  Here.
 Because this stuff is important.  Whether you're a business person formatting your emails, an aspiring web designer wanting to get your feet wet, or just someone who is interested and hasn't tried any sort of coding, scripting, or programming before, **HTML and CSS are an essential part** of your learning curve.
 
 ## Table of Contents
- * [HTML](https://github.com/cassidoo/HTML-CSS-Tutorial#html-time-lets-go)
-	* Editors
-	* Tag Structure
-	* Text Structure
-	* Links
-	* Other tags
-		* Images
-		* Line Breaks
-		* Tables
-	* Making Things Gorgeous The Wrong Way
-		* Colors
-		* Width and Height
-		* Borders
-		* Text Styles
-	* The `<head>` tag
-	* Putting it all together so far
- * [CSS](https://github.com/cassidoo/HTML-CSS-Tutorial#css-is-magical-and-now-youre-gonna-learn-it)
-	* Classes and IDs and other Segregation
-		* Classes
-		* IDs
-		* Other Segregation
-			* The `<span>` tag
-			* The `<div>` tag
-				* Background color
-				* Floating
-				* Positioning
-				* Margins and Padding
-				* Z-Index
-	* The `<link>` Tag, Comments, and other Developer Joys
-		* The `<link>` tag
-		* Commenting
-			* HTML Comments
-			* CSS Comments
-		* Other Developer Joys
-			* Forms
-			* HTML5 and CSS3
-			* How To Meet Losers (Get it? HTML Jokes are the best...)        
- * [Final Project!](https://github.com/cassidoo/HTML-CSS-Tutorial#final-project)
- * And now, the end is near
+
+- [HTML](#html-time-lets-go)
+	- [Editors](#editors)
+	- [Tag Structure](#html-tag-structure)
+	- [Text structure](#structuring-text)
+	- [Links](#links)
+	- [Other tags](#other-tags)
+		- [Images](#images)
+		- [Line breaks](#line-breaks)
+		- [Tables](#tables)
+	- [Making Things Gorgeous The Wrong Way](#making-things-gorgeous-the-wrong-way)
+		- [Colors](#colors)
+		- [Width and Height](#width-and-height)
+		- [Borders](#borders)
+		- [Text Styles](#text-styles)
+	- [The `<head>` Tag](#the-head-tag)
+	- [Putting it all together so far](#putting-it-all-together-so-far)
+- [CSS](#css-is-magical-and-now-youre-gonna-learn-it)
+	- [Classes and IDs and other Segregation](#classes-and-ids-and-other-segregation)
+		- [Classes](#classes)
+		- [IDs](#ids)
+		- [Other Segregation](#other-segregation)
+			- [The `<span>` tag](#the-span-tag)
+			- [The `<div>` tag](#the-div-tag)
+				- [Background color](#background-color)
+				- [Floating](#floating)
+				- [Positioning](#positioning)
+				- [Margins and Padding](#margins-and-padding)
+				- [Z-Index](#z-index)
+	- [The `<link>` Tag, Comments, and other Developer Joys](#the-link-tag-comments-and-other-developer-joys)
+		- [The `<link>` tag](#the-link-tag)
+		- [Commenting](#commenting)
+			- [HTML Comments](#html-comments)
+			- [CSS Comments](#css-comments)
+		- [Other Developer Joys](#other-developer-joys)
+			- [Forms](#forms)
+			- [HTML5 and CSS3](#html5-and-css3)
+			- [How To Meet Losers (Get it? HTML Jokes are the best...)](#how-to-meet-losers-get-it-html-jokes-are-the-best)
+- [Final Project!](#final-project)
+- [And now, the end is near](#and-now-the-end-is-near)
 
 ## HTML Time. Let's Go.
 
