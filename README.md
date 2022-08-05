@@ -110,6 +110,7 @@ Here's some lists of tags if you really care to see all of them at this point:
  * [HTML Dog Tag List](http://www.htmldog.com/reference/htmltags/)
  * [W3Schools Tag List](http://www.w3schools.com/tags/default.asp)
  * [Quackit HTML Tag List](http://www.quackit.com/html/tags/)
+ * [Essential used HTML tags](https://www.scaler.com/topics/html/html-tags/)
 
 So, if you look at our example, you can also put tags inside other tags (like we did with the `<title>` tags inside the `<head>` tags).  This is called *nesting* elements.
 In this case, we would say that the `<head>` *contains* the `<title>`.  Sometimes when you have a lot of nested tags, it's hard to keep track, so you have to format your code with spacing, as shown.  Typically, inner tags are spaced more than their outer tags (just as `<title>` is indented further than `<head>`).
