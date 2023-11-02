@@ -77,6 +77,7 @@ So the first thing you'll need is an editor to edit your jazz.  There's tons of 
  * [CodePen Projects](https://codepen.io/project) - This is an in-browser code editor, so you can code directly within the web browser, no downloads required. :)
  * [Glitch](https://glitch.com/) - This is another in-browser code editor. It is meant for larger projects, but it's nice to not have to download anything!
  * [Notepad++](http://notepad-plus-plus.org/) - This is just one step up from Notepad. But it's pretty dece.  Code highlighting is in it, and nothing else too fancy, which is what I like about it.
+ * [CodeLobster](https://codelobster.com/) - This is a free cross-platform code editor. It has very powerfull HTML, JS, CSS, PHP autocomplete and context help.
 
 There's a bunch of others [listed here](http://en.wikipedia.org/wiki/List_of_HTML_editors), I just listed the ones I've used and liked!
 
