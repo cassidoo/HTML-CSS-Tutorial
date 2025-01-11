@@ -1,43 +1,122 @@
 html {
   height: 100%;
+  scroll-behavior: smooth;
 }
+
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   height: 100%;
-  margin: 0px;
+  margin: 0;
+  line-height: 1.6;
+  background: linear-gradient(to bottom, #f4f4f9, #dbe2f1);
+  color: #333;
+  animation: fadeIn 1s ease-in-out;
 }
+
 a {
   color: red;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
+
+a:hover {
+  color: #990000;
+}
+
 img {
   float: right;
   width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: float 2s infinite alternate ease-in-out;
 }
+
 p span {
   font-weight: bold;
+  color: #555;
 }
+
 .header {
-  background-color: #99b5dd;
+  background: linear-gradient(to right, #99b5dd, #667aa9);
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
   height: 60px;
-  padding: 0px 10px;
+  padding: 0 20px;
   font-size: 50px;
   z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  color: white;
 }
+
 .content {
-  position: absolute;
-  top: 60px;
-  padding: 10px;
-  margin-bottom: 60px;
+  position: relative;
+  top: 70px;
+  padding: 20px;
+  margin-bottom: 80px;
   z-index: 0;
+  animation: slideIn 1s ease-in-out;
 }
+
 .footer {
-  background-color: #0f215d;
+  background: linear-gradient(to right, #0f215d, #284580);
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   height: 60px;
   width: 100%;
   z-index: 10;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  font-size: 16px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 30px;
+    padding: 0 10px;
+  }
+
+  img {
+    width: 150px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
 }
